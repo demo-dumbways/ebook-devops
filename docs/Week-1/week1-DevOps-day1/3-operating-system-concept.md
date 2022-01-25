@@ -11,14 +11,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img alt="image1" src={useBaseUrl('img/docs/image-7.png')} height="215px"/>
 
 Jenis-jenis sistem operasi yang digunakan sebagai komputer desktop adalah :
-1. Windows
-2. Linux
-3. MacOS
+1. Windows.
+2. Linux.
+3. MacOS.
 
 <img alt="image1" src={useBaseUrl('img/docs/image-5.png')} height="100px"/>
 
 Jenis-jenis sistem operasi yang digunakan untuk server adalah :
-1. Linux
-2. Windows Server
+1. Linux.
+2. Windows Server.
 
 <img alt="image1" src={useBaseUrl('img/docs/image-6.png')} height="100px"/>

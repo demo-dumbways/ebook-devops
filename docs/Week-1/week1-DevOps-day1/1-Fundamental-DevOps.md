@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 1. Fundamental DevOps
+# 1. Fundamental DevOps 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Apa itu DevOps?
@@ -16,11 +16,11 @@ Pekerjaan DevOps divisualisasikan sebagai proses loop tak terbatas yang terdiri 
 
    1. **Plan** : proses perencanaan untuk seluruh alur kerja yang dibutuhkan sebelum tim pengembang mulai menulis kode.
 
-   2. **Code** : Setelah rencana dibuat, tim developer dapat mulai menulis kode yang dibutuhkan untuk membuat suatu product
+   2. **Code** : Setelah rencana dibuat, tim developer dapat mulai menulis kode yang dibutuhkan untuk membuat suatu product.
 
    3. **Build** : Setelah tim developer selesai menulis kode yang dibutuhkan, mereka akan memasukan kode tersebut ke dalam shared code repository. Developer akan mengirimkan pull request, setelah developer yang lain akan mereview perubahan yang telah dilakukan. Jika kode tidak memiliki masalah, maka developer tersebut akan menyetujui pull request yang telah dikirim sebelumnya.
 
-   4. **Test** : Langkah selanjutnya adalah melakukan pengujian.  Jika ada masalah yang ditemukan pada fase ini, maka masalah tersebut akan dikirim kembali ke tim developer untuk diselesaikan.
+   4. **Test** : Langkah selanjutnya adalah melakukan pengujian. Jika ada masalah yang ditemukan pada fase ini, maka masalah tersebut akan dikirim kembali ke tim developer untuk diselesaikan.
 
    5. **Realese** : Pada tahap ini, setiap perubahan kode telah melewati serangkaian pengujian dan tim IT operations telah memastikan bahwa masalah yang merusak dan regresi sudah teratasi dengan baik.
 
