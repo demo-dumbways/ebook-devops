@@ -18,32 +18,38 @@ Berikut adalah gambaran beberapa jenis Cloud Computing :
 
    <img alt="image1" src={useBaseUrl('img/docs/image-12.png')} height="350px"/>
 
-1. **Infrastructure as a Service**.
+**1. Infrastructure as a Service**.
    
-   layanan cloud yang pada dasarnya adalah suatu server fisik dan juga komputer virtual. Setiap penyedia layanan IaaS akan menyediakan resource cloud, seperti storage, jaringan, dan juga ruang data. contohnya adalah :
-   1. AWS (Amazon Web Service).
-   2. GCP (Google Cloud Platform).
-   3. Digital Ocean.
-   4. Oracle Cloud.
+   layanan cloud yang pada dasarnya adalah suatu server fisik dan juga komputer virtual. Setiap penyedia layanan IaaS akan menyediakan resource cloud, seperti storage, jaringan, dan juga ruang data. Jadi intinya kalian bisa Set-Up sendiri nih kalian ingin menggunakan berapa besar core yang kalian inginkan lalu berapa memory yang kalian butuhkan, dan storagenya berapa dll. 
+   
+   **Contohnya adalah :**
+   - AWS (Amazon Web Service).
+   - GCP (Google Cloud Platform).
+   - Digital Ocean.
+   - Oracle Cloud.
 
-2. **Platform as a Service**.
+**2. Platform as a Service**.
 
-   layanan Cloud yang disediakan dalam bentuk platform dan dapat dimanfaatkan pengguna untuk membuat aplikasi di atasnya. contohnya adalah :
-   1. Heroku.
-   2. Netlify.
-   3. Dokku.
+   layanan Cloud yang disediakan dalam bentuk platform dan dapat dimanfaatkan pengguna untuk membuat aplikasi di atasnya. Nah kalau PaaS beda ya dengan IaaS yang kita bahas tadi. Jadi disini kalian udah ngga perlu nih untuk Set-Up server sendiri karena disini udah di sediakan oleh pemilik PaaS ini, Jadi kalian hanya perlu untuk menyiapkan data dan applikasi yang sudah kalian buat.
 
-3. **Software as a Service**.
+   **Contohnya adalah :**
+   - Heroku.
+   - Netlify.
+   - Dokku.
 
-   layanan dari Cloud Computing dimana kita tinggal memakai software atau perangkat lunak yang telah disediakan contohnya adalah :
-   1. Youtube.
-   2. Facebook.
-   3. Instagram.
-   4. TikTok.
+**3. Software as a Service**.
+
+   layanan dari Cloud Computing dimana kita tinggal memakai software atau perangkat lunak yang telah disediakan. Jadi untuk SaaS ini sendiri disini kita tinggal memakai aja nih aplikasi-aplikasi yang sudah selesai dan siap di pakai untuk user.
+
+   **Contohnya adalah :**
+   - Youtube.
+   - Facebook.
+   - Instagram.
+   - TikTok.
 
 Lalu Cloud Computing Sendiri itu dibagi menjadi 2 yaitu: 
 
-1. **Private Cloud**.
+**1. Private Cloud**.
 Jadi Private Cloud merupakan layanan yang disediakan kepada sejumlah orang tertentu. Biasanya hanya diterapkan dalam suatu perusahaan, yang memiliki data dalam jumlah besar tetapi bersifat rahasia.
 
 **Karakteristik Private Cloud**.
@@ -61,7 +67,7 @@ Jadi Private Cloud merupakan layanan yang disediakan kepada sejumlah orang terte
 
    <img alt="image1" src={useBaseUrl('img/docs/image-13.png')} height="180px"/>
 
-2. **Public Cloud**.
+**2. Public Cloud**.
 merupakan layanan yang disediakan kepada publik. Biasanya digunakan untuk mempublikasikan data mereka secara publik, baik itu dalam bentuk object seperti foto, video, dokumen dan sebagainya.
 
 **Karakteristik Public Cloud**.

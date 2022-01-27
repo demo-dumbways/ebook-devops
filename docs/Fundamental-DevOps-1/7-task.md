@@ -6,9 +6,11 @@ sidebar_position: 8
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# FUNDAMENTAL DevOps
+
 ## Instructions
 
-1. Template untuk tugas mingguan https://github.com/sgnd/dumbways-report
+1. Template untuk tugas mingguan https://github.com/dumbwaysdev/dumbways-report
 2. Upload tugas yang telah dibuat ke GitHub.
 
 ## Requirment
@@ -16,4 +18,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 1. Deskripsikan apa itu DevOps.
 2. Buatlah kultur dalam suatu perusahaan yang belum ada DevOpsnya dengan study case PT. DumbWays Indonesia Teknologi. 
 3. Sebutkan dan jelaskan tools apa saja yang digunakan sebagai DevOps pada infrastruktur yang telah dibuat.
-
