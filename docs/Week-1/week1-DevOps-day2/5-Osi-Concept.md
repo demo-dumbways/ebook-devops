@@ -7,6 +7,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 OSI adalah **Open System Interconnection**, yaitu model referensi yang diciptakan dari sebuah kerangka yang bersifat konseptual. Namun, saat ini telah berkembang dan menjadi sebuah standarisasi khusus berkaitan dengan koneksi komputer. 
 
+**Berikut Gambaran OSI Layer dan Penjelasannya :**
+
+<img alt="image1" src={useBaseUrl('img/docs/image-28.png')} height="350px"/>
+
 **1. Physical Layer (Lapisan ke 1)**    : Layer physical pada OSI adalah lapisan yang berfungsi sebagai transmisi terhadap bit data.
 
 **2. Data-Link Layer (Lapisan ke 2)**   : Data link layer bertugas untuk memeriksa bila terjadi kesalahan dalam menyalurkan transmisi terhadap bit data.
@@ -21,5 +25,5 @@ OSI adalah **Open System Interconnection**, yaitu model referensi yang diciptaka
 
 **7. Application Layer (Lapisan ke 7)** : Application layer pada OSI adalah pusat terjadinya suatu interaksi antara user dengan aplikasi yang bekerja menggunakan fungsionalitas sebuah jaringan.
 
-<img alt="image1" src={useBaseUrl('img/docs/image-28.png')} height="350px"/>
+
 

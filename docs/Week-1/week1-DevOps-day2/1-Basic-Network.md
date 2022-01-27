@@ -5,7 +5,6 @@ sidebar_position: 1
 # 1. Basic Network 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Apa itu Basic Network 
 
 **Jaringan Komputer** adalah interkoneksi antara 2 komputer atau lebih, yang saling terhubung dengan media transmisi kabel atau tanpa kabel (wireless). Komputer saling terkoneksi apabila komputer tersebut bisa saling bertukar data / informasi, berbagi resource yang dimiliki seperti file, printer, hard disk, dll.
 
