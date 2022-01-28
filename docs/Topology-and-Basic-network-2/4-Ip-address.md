@@ -27,4 +27,4 @@ IP Address Private : alamat IP pribadi yang dimiliki oleh setiap perangkat, enta
 - IP Address Dinamis : merupakan pemberian IP secara otomatis dalam sebuah jaringan baik itu bersifat IP publik atau IP private. IP ini akan berubah-ubah setiap waktu.
 
 ### 2. IP Address Statis
-- Ip Address Statis  : merupakan pemberian IP yang tidak akan berubah, harus di konfigurasi manual jika ingin menggunakan IP statis.
+- IP Address Statis  : merupakan pemberian IP yang tidak akan berubah, harus di konfigurasi manual jika ingin menggunakan IP statis.

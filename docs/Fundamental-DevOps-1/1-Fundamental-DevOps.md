@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# 1. Fundamental DEVOPS 
+# 1. Fundamental DevOps  
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **DevOps** adalah Kombinasi dari **DEVELOPMENT** dan **OPERATION** yang bertugas sebagai penghubung antara divisi Development (Programmer) dan Operation(Infrastructure Server). Agar bisa beradaptasi dengan cepat terhadap pembaruan maupun perubahan suatu product dan serta menghilangkan hambatan Komunikasi antara tim Development dan Operation, sehingga pada saat Deployment nantinya akan lebih konsisten dan lancar.
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/new.pic.jpg')} height="200px"/>
+<img alt="image1" src={useBaseUrl('img/docs/new.pic.JPG')} height="200px"/>
 </center>
 
 **Pekerjaan DevOps divisualisasikan sebagai proses loop tak terbatas yang terdiri dari :**

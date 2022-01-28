@@ -6,14 +6,14 @@ sidebar_position: 8
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## FUNDAMENTAL DevOps
+## Fundamental Devops
 
 ## Instructions
 
 1. Template untuk tugas mingguan https://github.com/dumbwaysdev/dumbways-report
 2. Upload tugas yang telah dibuat ke GitHub.
 
-## Requirment
+## Requirements
 
 1. Deskripsikan apa itu DevOps.
 2. Buatlah kultur dalam suatu perusahaan yang belum ada DevOpsnya dengan study case PT. DumbWays Indonesia Teknologi. 
