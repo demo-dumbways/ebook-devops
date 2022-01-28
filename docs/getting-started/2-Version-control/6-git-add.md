@@ -5,6 +5,10 @@ sidebar_position: 6
 
 # 6. Git add
 
+:::info
+Step by step penggunaan **GIT** ini akan digunakan untuk mengerjakan tugas mingguan.
+:::
+
 Jika file kalian sudah siap untuk di simpan lakukan perintah ini untuk menyimpan file kalian.
 
 Jika kalian ingin menyimpan secara spesifik katakanlah kalian mempunyai file dengan nama **index.js** maka perintah untuk menyimpan file bisa menggunakan perintah dibawah ini.

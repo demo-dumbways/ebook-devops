@@ -5,6 +5,10 @@ sidebar_position: 3
 
 # 3. Create Repository
 
+:::info
+Step by step penggunaan **GIT** ini akan digunakan untuk mengerjakan tugas mingguan.
+:::
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Repository** adalah suatu penyimpanan file project. dimana kamu bisa menyimpan apapun yang berkaitan dengan project kalian, seperti code, gambar, ataupun audio. repo sendiri bertempat di penyimpanan atau storage github atau repository local di komputer anda.

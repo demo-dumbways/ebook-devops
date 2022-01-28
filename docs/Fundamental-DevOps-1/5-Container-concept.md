@@ -10,7 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Dengan teknologi **container** kita dapat menjalankan aplikasi yang sudah berbentuk container tersebut di sistem operasi Windows ataupun Linux.
 
 Berikut adalah Gambaran bagaimana cara Container bekerja:
+<center>
    <img alt="image1" src={useBaseUrl('img/docs/image-10.png')} height="275px"/>
+</center>
 
 Infrastruktur dari container ini sendiri kurang lebih seperti ini. Jadi di bawahnya ini ada infrastruktur lalu di atas infrastruktur ini kalian install sebuah sistem operasi, Jadi sistem operasinya ini bisa ubuntu maupun windows terserah kalian nantinya. nah kemudian di atas sistem operasi ini kalian perlu install aplikasi yang namanya **Docker**. Docker ini adalah suatu tools yang mendukung container. jadi kalau misalkan ingin menjalakan sebuah container kalian butuh Docker. lalu di atas Docker ini kalian bisa membuat sebuah aplikasi dalam bentuk container.
 
@@ -20,5 +22,6 @@ Infrastruktur dari container ini sendiri kurang lebih seperti ini. Jadi di bawah
 3. Dapat dengan mudah di scale aplikasi sehingga lebih stable ketika ada salah satu aplikasi yang mati.
 
 Berikut beberapa Tools yang sering digunakan untuk membuat suatu **Container** :
-
+<center>
    <img alt="image1" src={useBaseUrl('img/docs/image-11.png')} height="170px"/>
+</center>

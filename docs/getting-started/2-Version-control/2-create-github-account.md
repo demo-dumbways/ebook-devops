@@ -4,6 +4,10 @@ sidebar_position: 2
 
 # 2. Create Github Account
 
+:::info
+Step by step penggunaan **GIT** ini akan digunakan untuk mengerjakan tugas mingguan.
+:::
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Github** adalah Platform khusus developer yang dibuat karena terinspirasi dari cara berkerja-sama para programmer. Dari open source ke bisnis, kita bisa meng-host dan meninjau sebuah kode, mengelola project dan membangun perangkat lunak bersama 56 Juta lebih pengguna di seluruh dunia.

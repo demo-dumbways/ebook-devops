@@ -8,6 +8,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **1. Jaringan Client - Server**.
 
+<center>
+        <img alt="image1" src={useBaseUrl('img/docs/image-19.png')} height="200px"/>
+</center>
+
    **Server** adalah komputer yang menyediakan fasilitas bagi komputer-komputer lain di dalam suatu jaringan. **Client** adalah komputer-komputer yang menerima atau menggunakan fasilitas yang disediakan oleh server.
 
 - **Keunggulan Jaringan Client - Server**.
@@ -20,9 +24,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     - Diperlukan adanya satu komputer khusus untuk server.
     - Kelangsungan jaringan sangat bergantung pada server.
 
-        <img alt="image1" src={useBaseUrl('img/docs/image-19.png')} height="200px"/>
-
 **2. Jaringan peer to peer**.
+
+<center>
+      <img alt="image1" src={useBaseUrl('img/docs/image-20.png')} height="200px"/>
+</center>
 
    Jaringan ini adalah **non-dedicated server**, karena server tidak berperan sebagai server murni melainkan sekaligus dapat berperan sebagai workstation. Artinya setiap workstation dapat bertindak sebagai server atau client.
 
@@ -35,6 +41,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
    - Sistem keamanan jaringan ditentukan oleh masing-masing user
    - Data jaringan tersebar di masing-masing komputer , maka backup harus di lakukan oleh masing-masing komputer.
-
-      <img alt="image1" src={useBaseUrl('img/docs/image-20.png')} height="200px"/>
 

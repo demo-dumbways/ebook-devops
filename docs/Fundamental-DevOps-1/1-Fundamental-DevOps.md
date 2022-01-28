@@ -5,12 +5,16 @@ sidebar_position: 1
 # 1. Fundamental DevOps 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-**DevOps** adalah Kombinasi dari **DEVELOPMENT** dan **OPERATION** yang bertugas sebagai penghubung antara divisi Development dan Operation. agar bisa beradaptasi dengan cepat terhadap pembaruan maupun perubahan suatu product dan serta menghilangkan hambatan Komunikasi antara tim Development dan Operation, sehingga pada saat Deployment nantinya akan lebih konsisten dan lancar.
+**DevOps** adalah Kombinasi dari **DEVELOPMENT** dan **OPERATION** yang bertugas sebagai penghubung antara divisi Development (Programmer) dan Operation(Infrastructure Server). Agar bisa beradaptasi dengan cepat terhadap pembaruan maupun perubahan suatu product dan serta menghilangkan hambatan Komunikasi antara tim Development dan Operation, sehingga pada saat Deployment nantinya akan lebih konsisten dan lancar.
+<center>
+<img alt="image1" src={useBaseUrl('img/docs/new.pic.jpg')} height="200px"/>
+</center>
 
-<img alt="image1" src={useBaseUrl('img/docs/image-2.jpg')} height="200px"/>
+**Pekerjaan DevOps divisualisasikan sebagai proses loop tak terbatas yang terdiri dari :**
 
-
-Pekerjaan DevOps divisualisasikan sebagai proses loop tak terbatas yang terdiri dari :
+<center>
+<img alt="image1" src={useBaseUrl('img/docs/image-1.png')} height="300px"/>
+</center>
 
    1. **Plan** : proses perencanaan untuk seluruh alur kerja yang dibutuhkan sebelum tim pengembang mulai menulis kode.
 
@@ -27,6 +31,3 @@ Pekerjaan DevOps divisualisasikan sebagai proses loop tak terbatas yang terdiri 
    7. **Operate** : Pada tahap ini aplikasi sudah bisa untuk di operasikan atau digunakan.
 
    8. **Monitor** : Pada tahap terakhir ini, tim IT operations akan terus bekerja keras untuk memantau infrastruktur, sistem, dan aplikasi. Hal ini dilakukan untuk memastikan bahwa produk atau aplikasi yang dikembangkan dapat berjalan dengan lancar.
-
-<img alt="image1" src={useBaseUrl('img/docs/image-1.png')} height="300px"/>
-
