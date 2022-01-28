@@ -29,10 +29,17 @@ Lebih spesifik lagi :
 5. Circle CI.
 
 **Workflow**
+
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/image-3.png')} height="350px"/>
+<img alt="image1" src={useBaseUrl('img/docs/image-3.png')} height="400px"/>
 </center>
 
 Jadi kurang lebih cara kerja CI/CD seperti ini :
 
-Para Developer (Programmer) yang telah menyelesaikan coding-an mereka, mereka akan melakukan yang namanya **commit**, nah commit ini apa **commit ini adalah proses penyimpanan coding-an para Developer**. Setelah itu coding-an para Developer akan di simpan ke sebuah Platrform yang bernama GIT. **Git ini adalah sebuah platfform yang memudahkan para Developer untuk menyimpan code yang sudah mereka buat**. Setelah itu akan di teruskan ke sebuah tools CI/CD kita ambil contoh disini adalah **Jenkins**. Nah **Jenkins ini adalah sebuah tools yang berfungsi untuk mengecek code yang sudah dibuat oleh para Developer apakah ada bug atau tidak**. Jika ada bug maka si Jenkins ini akan memberitahu nih ternyata di coding-an yang sudah di buat oleh para Developer ini ada bug. Lalu jika ternyata tidak ada bug si Jenkins ini akan melakukan Deployment ke server agar aplikasi yang sudah dibangun oleh para Developer itu tadi, bisa di gunakan oleh user.
+Programmer yang telah menyelesaikan aplikasi yang telah dibuat, maka akan melakukan commit. **Commit** adalah proses penyimpanan code aplikasi ke repository / server. 
+
+Kemudian, code tersebut akan diteruskan ke sebuah tools CI/CD salah satunya adalah **Jenkins**. Pada proses tersebut akan melakukan proses build dan test pengecekan code apakah ada bug atau tidak. 
+
+Jika proses tersebut berjalan dengan lancar maka akan diteruskan ke server hingga dapat di akses oleh pengguna, tapi jika terdapat bug akan ada pemberitahuan ke email.
+
+Dan semua proses tersebut akan berulang-ulang secara otomatis.
