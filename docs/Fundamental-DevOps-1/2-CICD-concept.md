@@ -30,7 +30,7 @@ Lebih spesifik lagi :
 
 **Workflow**
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/image-3.png')} height="250px"/>
+<img alt="image1" src={useBaseUrl('img/docs/image-3.png')} height="350px"/>
 </center>
 
 Jadi kurang lebih cara kerja CI/CD seperti ini :
