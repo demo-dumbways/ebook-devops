@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
-# 6. Cloud Computing Concept
+# 5. Cloud Computing Concept
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

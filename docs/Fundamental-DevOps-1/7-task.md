@@ -1,8 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 6
 ---
 
-# 7. Task
+# 6. Task
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -17,4 +17,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 1. Deskripsikan apa itu DevOps.
 2. Buatlah kultur dalam suatu perusahaan yang belum ada DevOpsnya dengan study case PT. DumbWays Indonesia Teknologi. 
-3. Sebutkan dan jelaskan tools apa saja yang digunakan sebagai DevOps pada infrastruktur yang telah dibuat.
+3. Install Ubuntu Server 20.x with VMware.
+4. Create swap memory and root partition.
+5. Local server can connect to the internet.

@@ -31,3 +31,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
    7. **Operate** : Pada tahap ini aplikasi sudah bisa untuk di operasikan atau digunakan.
 
    8. **Monitor** : Pada tahap terakhir ini, tim IT operations akan terus bekerja keras untuk memantau infrastruktur, sistem, dan aplikasi. Hal ini dilakukan untuk memastikan bahwa produk atau aplikasi yang dikembangkan dapat berjalan dengan lancar.
+
+**Why DevOps:**
+
+DevOps bertugas untuk membuat seluruh proses tersebut menjadi otomatis agar:
+
+- Mempercepat proses release ke publik. 
+- Menurunkan tingkat kegagalan pada rilisan terbaru. 
+- Mempersingkat waktu perbaikan. 
