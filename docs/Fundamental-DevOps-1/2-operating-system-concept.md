@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# 3. Operating System Concept
+# 2. Operating System Concept
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img alt="image1" src={useBaseUrl('img/docs/image-5.png')} height="125px"/>
 </center>
 
-**Perbedaan 32 Bit dan 64 Bit pada sistem operasi**
+Pada sistem operasi server wajib menggunakan **64 bit**, karena memiliki performa yang lebih baik dari **32 bit**. Untuk lebih jelasnya dapat dilihat pada point-point berikut:
 
 **32 Bit**
 - 32 Bit hanya sanggup memproses data sebesar 4 Gb Memory.
@@ -33,11 +33,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Sistem operasi 64 bit bisa menjalankan sistem operasi yang 32 Bit.
 - Direkomendasikan untuk multi-tasking karena dapat membaca lebih dari 16 Gb Memory.
 - Sistem operasi bisa memakai 32 Bit maupun 64 Bit.
-
-**Linux Distribution** adalah sistem operasi yang dibangun dari kernel linux dengan penambahan komponen lain berupa module, aplikasi, service ataupun package lain agar tercipta sistem operasi dengan tujuan yang spesifik yang telah ditentukan oleh pihak pengembang.
-
-**Contoh Distribusi Linux yang cocok digunakan di server:**
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/image-31.png')} height="100px"/>
-</center>
-

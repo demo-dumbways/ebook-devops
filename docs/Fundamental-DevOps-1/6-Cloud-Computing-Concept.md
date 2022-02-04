@@ -6,7 +6,9 @@ sidebar_position: 5
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-**Cloud Computing** adalah pengiriman berbagai layanan melalui internet, seperti data storage, servers, databases, networking dan software. 
+**Cloud Computing** apengiriman berbagai layanan melalui internet, seperti data storage, servers, databases, networking dan software. 
+
+**Kenapa Cloud Computing?**
 
 Bagi kebanyakan orang cloud computing sangat diminati karena beberapa alasan :
 1. Menghemat Biaya
@@ -57,16 +59,16 @@ Bagi kebanyakan orang cloud computing sangat diminati karena beberapa alasan :
    <img alt="image1" src={useBaseUrl('img/docs/image-13.png')} height="180px"/>
 </center>
 
-**Private Cloud** adalah suatu layanan yang disediakan kepada sejumlah orang tertentu. Biasanya hanya diterapkan dalam suatu perusahaan, yang memiliki data dalam jumlah besar tetapi bersifat rahasia.
+**Private Cloud** adalah layanan yang disediakan kepada orang tertentu. Biasanya hanya diterapkan dalam suatu perusahaan, yang memiliki data dalam jumlah besar tetapi bersifat rahasia.
 
 Karakteristik Private Cloud :
   - Dapat di scale secara mandiri, dengan pengetahuan teknis.
   - Management data hanya dapat diakses oleh staf IT tertentu.
   - Tidak perlu membayar biaya layanan jika orang menggunakannya.
 
-Contoh-Contoh Private Cloud.
+Contoh-Contoh Private Cloud :
   
-  - Server yang hanya dapat diakses melalui VPN.
+  - Private OpenStack dan hanya dapat diakses melalui VPN.
   - Aplikasi yang hanya dapat di akses Melalui jaringan internet Local.
 
 ### 2. Public Cloud
@@ -75,7 +77,8 @@ Contoh-Contoh Private Cloud.
    <img alt="image1" src={useBaseUrl('img/docs/image-14.png')} height="180px"/>
 </center>
 
-**Public Cloud** merupakan suatu layanan yang disediakan kepada publik. Biasanya digunakan untuk mempublikasikan data mereka secara publik, baik itu dalam bentuk object seperti foto, video, dokumen dan sebagainya.
+**Public Cloud** adalah layanan yang disediakan kepada publik. Biasanya digunakan untuk mempublikasikan data mereka secara publik, baik itu dalam bentuk object seperti foto, video, dokumen dan sebagainya.
+
 
 Karakteristik Public Cloud :
 

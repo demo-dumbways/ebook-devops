@@ -6,6 +6,7 @@ sidebar_position: 1
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **DevOps** adalah Kombinasi dari **DEVELOPMENT** dan **OPERATION** yang bertugas sebagai penghubung antara divisi Development (Programmer) dan Operation(Infrastructure Server). Agar bisa beradaptasi dengan cepat terhadap pembaruan maupun perubahan suatu product dan serta menghilangkan hambatan Komunikasi antara tim Development dan Operation, sehingga pada saat Deployment nantinya akan lebih konsisten dan lancar.
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/new.pic.JPG')} height="200px"/>
 </center>
@@ -32,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
    8. **Monitor** : Pada tahap terakhir ini, tim IT operations akan terus bekerja keras untuk memantau infrastruktur, sistem, dan aplikasi. Hal ini dilakukan untuk memastikan bahwa produk atau aplikasi yang dikembangkan dapat berjalan dengan lancar.
 
-**Why DevOps:**
+**Kenapa DevOps ?**
 
 DevOps bertugas untuk membuat seluruh proses tersebut menjadi otomatis agar:
 
