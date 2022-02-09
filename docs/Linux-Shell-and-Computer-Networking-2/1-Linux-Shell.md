@@ -350,7 +350,7 @@ rm file1
 **rmdir** adalah perintah untuk menghapus suatu directory. Contoh disini kita coba membuat satu directory baru lalu kita coba untuk menghapus directory yang sudah kita buat tadi.
 
 ```shell
-rmdir devops
+rmdir DevOps
 ```
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell29.png')} height="400px"/>

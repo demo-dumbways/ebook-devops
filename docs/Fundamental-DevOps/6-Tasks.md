@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 6. Task
+# 6. Tasks
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
