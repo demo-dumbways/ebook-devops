@@ -1,14 +1,15 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-# 5. Cloud Computing Concept
+# 6. Cloud Computing Concept
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 6.1 Apa itu Cloud Computing?
 **Cloud Computing** merupakan sebuah teknologi yang memungkinkan kita untuk mengatur/berbagai layanan melalui internet, seperti data storage, servers, databases, networking dan software. 
 
-## Kenapa Harus Cloud Computing?
+## 6.2 Kenapa Harus Cloud Computing?
 
 Bagi kebanyakan orang cloud computing sangat diminati karena beberapa alasan:
 1. Dapat menghemat biaya, karena tidak perlu membeli server fisik yang harganya mahal
@@ -16,7 +17,7 @@ Bagi kebanyakan orang cloud computing sangat diminati karena beberapa alasan:
 3. Efektif dan efisien, karena kita tidak perlu untuk pergi keluar negeri jika ingin menambah sebuah server baru
 4. Keamanan data terjamin, karena pihak cloud yang memastikan keamanannya
 
-## Jenis Cloud Computing
+## 6.3 Jenis Cloud Computing
 
 <center>
    <img alt="image1" src={useBaseUrl('img/docs/image-12.png')} height="350px"/>
@@ -50,7 +51,7 @@ Layanan cloud dimana kita tinggal memakai perangkat lunak yang telah disediakan 
 - Instagram
 - TikTok
 
-## Tipe Cloud Computing
+## 6.4 Tipe Cloud Computing
 
 ### 1. Private Cloud
 

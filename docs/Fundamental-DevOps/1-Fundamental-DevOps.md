@@ -5,17 +5,13 @@ sidebar_position: 1
 # 1. Fundamental DevOps  
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 1.1 Apa itu DevOps?
 **DevOps** adalah Kombinasi dari **DEVELOPMENT** dan **OPERATION** yang bertugas sebagai penghubung antara divisi Development (Programmer) dan Operation (Infrastructure Server). Agar bisa beradaptasi dengan cepat terhadap pembaruan maupun perubahan suatu product dan serta menghilangkan hambatan Komunikasi antara tim Development dan Operation, sehingga pada saat Deployment nantinya akan lebih konsisten dan lancar.
-
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/new.pic.JPG')} height="200px"/>
-</center>
-
-## Visualisasi Pekerjaan DevOps
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/image-1.png')} height="300px"/>
 </center>
+
 Pekerjaan seorang DevOps merupakan pekerjaan terus-menerus dengan alur dan fungsi sebagai berikut :
 
 1. **Plan** : Proses perencanaan untuk seluruh alur kerja yang dibutuhkan sebelum developers mulai menulis kode program.
@@ -34,7 +30,7 @@ Pekerjaan seorang DevOps merupakan pekerjaan terus-menerus dengan alur dan fungs
 
 8. **Monitor** : Tim Operations akan melakukan pemantauan infrastruktur, sistem, dan aplikasi. Hal ini dilakukan untuk memastikan bahwa produk atau aplikasi yang dikembangkan dapat berjalan dengan lancar.
 
-## Kenapa Harus DevOps?
+## 1.2 Kenapa Harus DevOps?
 
 DevOps bertugas untuk membuat seluruh proses tersebut menjadi otomatis agar:
 

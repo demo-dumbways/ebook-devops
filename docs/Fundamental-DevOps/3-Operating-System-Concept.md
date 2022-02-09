@@ -1,17 +1,19 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 2. Operating System Concept
+# 3. Operating System Concept
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+## 3.1 Apa itu Operating System?
 
 **Operating System** adalah penghubung antara software dan hardware agar dapat digunakan oleh pengguna. Dalam sebuah komputer ataupun server memerlukan minimal satu sistem operasi agar dapat digunakan untuk menjalankan suatu program. 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/image-7.png')} height="215px"/>
 </center>
 
-## Jenis Sistem Operasi
+## 3.2 Jenis Sistem Operasi
 1. Windows
 2. Linux
 3. MacOS
@@ -20,7 +22,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img alt="image1" src={useBaseUrl('img/docs/image-5.png')} height="125px"/>
 </center>
 
-## Kenapa Harus Menggunakan Sistem 64 Bit?
+## 3.3 Kenapa Harus Menggunakan Sistem 64 Bit?
 
 Pada sistem operasi server wajib menggunakan **64 bit**, karena memiliki performa yang lebih baik dari **32 bit**. Untuk lebih jelasnya dapat dilihat pada point-point berikut:
 

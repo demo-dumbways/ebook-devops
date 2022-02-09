@@ -1,38 +1,21 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# 4. Install Ubuntu Server 20.04
+# 5. Install Ubuntu Server
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-### Requirement
+## Requirements
 
-Pertama-tama kita harus menginstall virtual machine serta iso ubuntu server terlebih dahulu, untuk virtual machine kalian bisa menggunakan **VMware**.
+Sebelum melakukan instalasi ubuntu server, hal pertama yang harus kita lakukan adalah menginstall tools virtual machine serta meng-unduh file ISO server terlebih dahulu.Pada materi kali ini, kita akan menggunakan tools **VMware Workstation Player**.
 
-Silahkan klik link dibawah untuk mendownload kebutuhan kalian.
+Silahkan klik link dibawah untuk meng-unduh tools yang diperlukan.
 
 - **VMware Installation     : [Download](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)**
-
 - **Ubuntu Server 20.04     : [Download](https://ubuntu.com/download/server)**
 
-## Study Case Install Ubuntu Server :
-
-### 1. VMware settings
-- Disk       : 10Gb
-- Memory     :  4Gb
-- Processors :  2Cores
-- Network    : Bridge
-
-### 2. Ubuntu Settings
-- Bahasa       : English
-- Network      : Static
-- Storage      : Custom Storage Layout
-- Username     : (your-user-name)
-- Password     : (your-password)
-- Server.Name  : (your-name)
-- OpenSSH      : True
-### 3. Installation Ubuntu Server
+### 1. Installation Ubuntu Server
 
 1. Buka Virtual machine kalian, untuk contohnya disini menggunakan VMware. Jika sudah langsung klik saja di bagian **Create a new Virtual Machine**.
 
@@ -58,10 +41,11 @@ Silahkan klik link dibawah untuk mendownload kebutuhan kalian.
 <img alt="image1" src={useBaseUrl('img/docs/vm4.png')} height="380px"/>
 </center>
 
-5. Setelah atur size disk yang ingin kalian gunakan. Disini sebagai contoh saya menggunakan 10GB. Disini ada 2 pilihan yaitu **Store Disk as a single file** dan **Split virtual disk into multiple files**. Untuk penjelasanya ada di bawah :
+5. Setelah atur size disk yang ingin kalian gunakan. Disini sebagai contoh saya menggunakan 10GB. Disini ada 2 pilihan yaitu **Store Disk as a single file** dan **Split virtual disk into multiple files**. 
 
-  - **Store Disk as a single file** maksudnya adalah disk yang kalian buat itu nantinya akan langsung terbuat 10Gb. (ini tidak disarankan untuk pengguna yang memiliki hardisk yang berkapasitas kecil).
-  - **Split virtual disk into multiple files** maksudnya adalah disk yang kita pakai untuk virtual machine kita nantinya itu akan dibagi menjadi beberapa bagian. Jadi walaupun kita menggunakan disk berkapasitas 10Gb itu nanti tidak akan terpakai seluruhnya.
+   Keterangan :
+     - **Store Disk as a single file** maksudnya adalah disk yang kalian buat itu nantinya akan langsung terbuat 10Gb. (ini tidak disarankan untuk pengguna yang memiliki hardisk yang berkapasitas kecil).
+     - **Split virtual disk into multiple files** maksudnya adalah disk yang kita pakai untuk virtual machine kita nantinya itu akan dibagi menjadi beberapa bagian. Jadi walaupun kita menggunakan disk berkapasitas 10Gb itu nanti tidak akan terpakai seluruhnya.
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/vm5.png')} height="380px"/>
@@ -73,25 +57,27 @@ Silahkan klik link dibawah untuk mendownload kebutuhan kalian.
 <img alt="image1" src={useBaseUrl('img/docs/vm6.png')} height="380px"/>
 </center>
 
-7. Disini ada beberapa pilihan untuk kita melakukan customisasi seperti **Memory**, **Processors** dan **Network adapter**. Untuk penjelasanya ada di bawah ini.
+7. Disini ada beberapa pilihan untuk kita melakukan customisasi seperti **Memory**, **Processors** dan **Network adapter**. 
 
-- **Memory** berfungsi untuk penyimpanan data yang ingin kita gunakan untuk Virtual Machine yang ingin kita buat. Disini kita pilih gunakan saja defaultnya yaitu sebesar 4Gb tetapi misalkan kalian merasa kurang kalian boleh untuk menaikkannya sesuai keinginan kalian.
+   Keterangan:
+     - **Memory** berfungsi untuk penyimpanan data yang ingin kita gunakan untuk Virtual Machine yang ingin kita buat. Disini kita pilih gunakan saja defaultnya yaitu sebesar 4Gb tetapi misalkan kalian merasa kurang kalian boleh untuk menaikkannya sesuai keinginan kalian.
+     - **Processors** adalah salah satu komponen penting untuk Virtual Machine yang ingin kita bangun, serta berfungsi untuk memproses data dan mengontrol sistem yang ada pada Virtual Machine kita. Disini kita menggunakan defaultnya saja yaitu sebesar 2 core.
+     - **Network adapter** berfungsi untuk menghubungkan komputer ke jaringan. Untuk penjelasan lebih lanjut ada di poin berikutnya.
 
-- **Processors** adalah salah satu komponen penting untuk Virtual Machine yang ingin kita bangun, serta berfungsi untuk memproses data dan mengontrol sistem yang ada pada Virtual Machine kita. Disini kita menggunakan defaultnya saja yaitu sebesar 2 core.
+8. Jika sudah selesai untuk meng-setting **memory** dan **processor**, kalian bisa pergi ke bagian **Network Adapter**. Setelah itu ubah dari defaultnya yaitu **NAT** menjadi **Bridge**.
 
-- **Network adapter** berfungsi untuk menghubungkan komputer ke jaringan. Untuk penjelasan lebih lanjut ada di poin berikutnya.
-
-8. Jika sudah selesai untuk meng-setting **memory** dan **processor**, kalian bisa pergi ke bagian **Network Adapter**. Setelah itu ubah dari defaultnya yaitu **NAT** menjadi **Bridge**. untuk penjelasan **NAT** dan **Bridge** ada di bawah ini :
- 
- - kalau menggunakan **NAT** nantinya server yang kita buat ini akan mendapatkan IP yang sudah di sediakan oleh Virtual Machine kita.
- - Kalau Menggunakan **Bridge** nantinya server yang kita buat akan mendapatkan IP dari internet yang sedang kita gunakan.
+   Keterangan:
+     - kalau menggunakan **NAT** nantinya server yang kita buat ini akan mendapatkan IP yang sudah di sediakan oleh Virtual Machine kita.
+     - Kalau Menggunakan **Bridge** nantinya server yang kita buat akan mendapatkan IP dari internet yang sedang kita gunakan.
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/vm7.png')} height="380px"/>
 </center>
 
 9. Jika sudah langsung klik saja **Close**.
+
 10. Setelah nanti kalian akan di kembalikan ke halamannya sebelumnya, setelah itu tekan saja di bagian **Finish**.
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/vm8.png')} height="450px"/>
 </center>
@@ -120,9 +106,9 @@ Silahkan klik link dibawah untuk mendownload kebutuhan kalian.
 
 14. Selanjutnya kita akan ubah konfigurasinya dari yang awalnya itu **DHCPv4** menjadi **Static**.
 
- Perbedaan DHCP dan Static:
-   - **DHCP (Dynamic Host Protocol Configuration)** : Alamat IP yang dapat berubah-ubah pada perangkat yang tersambung setiap kali terhubung kembali pada jaringan tersebut (otomatis).
-   - **Static** : Alamat IP tidak berubah-ubah dari yang telah diberikan oleh adminisitrator (setting manual)
+    Keterangan:
+      - **DHCP (Dynamic Host Protocol Configuration)** : Alamat IP yang dapat berubah-ubah pada perangkat yang tersambung setiap kali terhubung kembali pada jaringan tersebut (otomatis).
+      - **Static** : Alamat IP tidak berubah-ubah dari yang telah diberikan oleh adminisitrator (setting manual)
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/vm13.png')} height="300px"/>
@@ -130,11 +116,11 @@ Silahkan klik link dibawah untuk mendownload kebutuhan kalian.
 
 15. Pilih di bagian **ens33**, setelah itu pada bagia **IPv4 Method** ubah dari yang awalnya **automatic** menjadi **manual**. Setelah itu masukan detail IP pada form yang tersedia(kalian bisa masukkan saja IP yang sudah tertera di bagian DHCPv4). Jika sudah langsung tekan saja **Save**.
 
-Berikut adalah informasi dari beberapa colom dibawah yang harus kalian isi:
-- Subnet       : Istilah teknologi Informasi yang membedakan Network ID dan Host ID atau sebagai penentu porsi Network ID dan Host ID pada deretan kode biner
-- Address      : Alamat **IP** yang akan digunakan untuk Virtual Machine yang akan  kalian buat. (kalian dapat mengisi bagian ini dengan IP yang sudah ada di bagian DHCP)
-- Gateway      : Perangkat komputer yang berfungsi untuk mengkoneksikan sebuah Jaringan komputer terhadap satu jaringan komputer yang lain.
-- Name servers : Dibagian **Name servers** ini kalian cukup memasukkan IP DNS dari google supaya dapat terhubung dengan browser.
+     Keterangan:
+       - **Subnet**       : Istilah teknologi Informasi yang membedakan Network ID dan Host ID atau sebagai penentu porsi Network ID dan Host ID pada deretan kode biner
+       - **Address**      : Alamat **IP** yang akan digunakan untuk Virtual Machine yang akan  kalian buat. (kalian dapat mengisi bagian ini dengan IP yang sudah ada di bagian DHCP)
+       - **Gateway**      : Perangkat komputer yang berfungsi untuk mengkoneksikan sebuah Jaringan komputer terhadap satu jaringan komputer yang lain.
+       - **Name servers** : Dibagian **Name servers** ini kalian cukup memasukkan IP DNS dari google supaya dapat terhubung dengan browser.
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/vm14.png')} height="300px"/>
@@ -164,13 +150,11 @@ Berikut adalah informasi dari beberapa colom dibawah yang harus kalian isi:
 <img alt="image1" src={useBaseUrl('img/docs/vm18.png')} height="300px"/>
 </center>
 
-20. Selanjutnya disini kita akan membuat 2 buah partisi untuk **root** dan **swap**. Langsung pilih saja di bagian **/dev/sda** lalu pilih di bagian **Add GPT Partition**.
+20. Selanjutnya disini kita akan membuat 2 buah partisi untuk **root** dan **swap**. Langsung pilih saja di bagian **/dev/sda** lalu pilih di bagian **Add GPT Partition**. Untuk kapasitasnya kalian bisa samakan saja dengan gambar dibawah (kecuali untuk swap, kalian bisa setting semau kalian apabila merasa kurang).
 
-  Informasi root dan swap :
-  - root adalah tempat dimana sistem kita itu ter-install.
-  - swap adalah suatu memory cadangan yang akan digunakan untuk server kita apabila memory utama sudah penuh.
-
-    Untuk kapasitasnya kalian bisa samakan saja dengan gambar dibawah (kecuali untuk swap, kalian bisa setting semau kalian apabila merasa kurang).
+    Keterangan :
+      - **root** adalah tempat dimana sistem kita itu ter-install.
+      - **swap** adalah suatu memory cadangan yang akan digunakan untuk server kita apabila memory utama sudah penuh.
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/vm19.png')} height="300px"/>
@@ -273,7 +257,7 @@ ping google.com
 </center>
 
 
-### 4. Remote Server
+### 2. Remote Server
 
 1. Untuk me-remote server kalian bisa gunakan perintah seperti ini
    ```shell
