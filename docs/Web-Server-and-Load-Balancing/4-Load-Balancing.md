@@ -32,7 +32,7 @@ Jika kita memiliki website atau aplikasi yang telah digunakan hingga ribuan, rat
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/ba3.png')} height="400px"/>
   </center>
-  
+
 - Sekarang kita sudah mempunyai 2 buah server untuk aplikasi kita.
 - Sekarang kita akan coba untuk membuat konfigurasi load balancing.
 - Pertama-tama kita masuk ke dalam konfigurasi reverse proxy yang sudah kita buat sebelumnya.
@@ -115,10 +115,10 @@ keterangan :
 
 - Sekarang kita coba akses web browser kita lagi setelah itu akses nama domain kalian.
 
- <center>
+  <center>
   <img alt="image1" src={useBaseUrl('img/docs/r5.png')} height="400px"/>
   </center>
 
-  :::info
-  Jika aplikasi kalian masih bisa di akses berarti konfigurasi Load Balance kalian berhasil dan tidak ada error
-  :::
+:::info
+Jika aplikasi kalian masih bisa di akses berarti konfigurasi Load Balance kalian berhasil dan tidak ada error
+:::
