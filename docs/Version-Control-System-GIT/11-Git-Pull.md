@@ -1,8 +1,8 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 
-# 11. Git pull
+# 12. Git pull
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

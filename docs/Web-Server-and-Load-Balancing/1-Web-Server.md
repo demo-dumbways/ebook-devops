@@ -18,20 +18,16 @@ Karena **Web server** memiliki peran penting dalam mengendalikan proses kerja da
   <img alt="image1" src={useBaseUrl('img/docs/web1.png')} height="400px"/>
   </center>
 
-cara kerja web server adalah dengan menerima permintaan yang berasal dari klien kemudian mengirimkannya kembali dalam bentuk halaman kepada klien tersebut.
-
-Perangkat lunak yang digunakan pada web server terdapat di komputer server sebagai tempat menyimpan data-data website. Selain itu, komputer server membutuhkan akses internet yang cukup agar tetap terhubung dan dapat diakses oleh klien.
+Pada ilustrasi di atas, dapat dilihat bahwa komputer client sedang melakukan request data yang berada pada server database melalui sebuah web server kemudian web server akan mengembalikan data tersebut dalam bentuk halaman website pada komputer client.
 
 ## 1.4 Fungsi Web Server
-- Memberikan berbagai cache yang terdapat pada penyimpanan serta semua dokumen yang tidak terpakai lagi.
-- Melakukan pemeriksaan terhadap sistem security yang berasal dari permintaan HTTP berdasarkan request client atau web browser.
 - Menyediakan data berdasarkan request atau permintaan yang masuk agar dapat menjamin keamanan sistem yang berjalan dengan lancar.
+- Melakukan pemeriksaan terhadap sistem security yang berasal dari permintaan HTTP berdasarkan request client atau web browser.
 
 ## 1.5 Jenis-Jenis Web Server
 - Apache
 - Nginx
-- IIS
-- Lightspeed
+- Litespeed
 - Lightpd
 
 ## 1.6 Instalasi Nginx dan Service Management

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 2. Git Installation
+# 3. Git Installation
 
 :::info
 Jika kamu menggunakan operating system **Linux-Ubuntu/Mac-OS** kamu bisa skip installasi ini karena Git sudah ada secara default.

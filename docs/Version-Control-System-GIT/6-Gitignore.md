@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
-# 6. Git ignore
+# 7. Git ignore
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

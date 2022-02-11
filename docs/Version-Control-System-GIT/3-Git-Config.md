@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# 3. Git Config
+# 4. Git Config
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

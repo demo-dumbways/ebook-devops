@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# 12. Git Merge
+# 13. Git Merge
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

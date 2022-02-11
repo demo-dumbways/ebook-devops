@@ -15,10 +15,11 @@ Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan
 Setelah mempelajari terkait web server, reverse proxy dan load balancing maka buatlah konfigurasi dengan ketentuan sebagai berikut:
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/task.png')} />
+<img alt="image1" src={useBaseUrl('img/docs/++.png')} />
 </center>
 
 ### Ketentuan
+- Clone aplikasi berikut https://github.com/dumbwaysdev/wayshub-frontend.git
 - Jalankan 1 aplikasi yang sama pada 2 buah server
 - Buatlah sebuah konfigurasi reverse proxy pada server gateway (nginx)
 - Buatlah sebuah konfigurasi load balancing pada server gateway (nginx)

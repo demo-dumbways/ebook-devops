@@ -1,8 +1,8 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 ---
 
-# 10. Git Branch
+# 11. Git Branch
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
