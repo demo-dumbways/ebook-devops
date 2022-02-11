@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 2. Reverse Proxy
+# 3. Reverse Proxy
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## 2.1 Apa itu Reverse Proxy?
+## 3.1 Apa itu Reverse Proxy?
 
 **Reverse proxy** adalah konfigurasi standar yang digunakan untuk mengubah jalur traffic, misalkan aplikasi menggunakan port 3000 tetapi agar dapat di akses melalui port 80 maka harus menggunakan reverse proxy.
 
@@ -22,10 +22,10 @@ server {
 }
 ```
 
-## 2.2 Kenapa Harus Reverse Proxy?
+## 3.2 Kenapa Harus Reverse Proxy?
 Untuk mengamankan aplikasi yang berjalan pada server maka kita perlu untuk melakukan reverse proxy, supaya pengguna tidak dapat mengakses aplikasi kita secara langsung.
 
-## 2.3 Membuat Konfigurasi Revese Proxy
+## 3.3 Membuat Konfigurasi Revese Proxy
 Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
 
 - Pertama-tama masuk ke folder nginx setelah itu buat suatu directory baru telebih dahulu.
