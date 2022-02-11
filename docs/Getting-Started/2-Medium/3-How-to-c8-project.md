@@ -54,4 +54,37 @@ Sekarang kita akan mecoba membuat suatu project untuk tugas mingguan kalian.
   <img alt="image1" src={useBaseUrl('img/docs/medium13.png')} height="400px"/>
   </center>
 
-- 
+- Jika tugas yang kalian buat telah sesuai dengan tugas mingguan kalian, tahapan selanjutnya adalah mempublish project kalian agar para mentor dapat melakukan pengecekan tugas yang sudah kalian buat.
+- Untuk cara mempublish project yang telah kalian buat, kalian dapat klik menu `publish` di bagian atas.
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium14.png')} height="400px"/>
+  </center>
+
+- Selanjutnya kalian dapat memilih `tags` yang sesuai dengan tugas kalian. Contoh seperti gambar di bawah ini
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium15.png')} height="400px"/>
+  </center>
+
+    <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium16.png')} height="400px"/>
+  </center>
+
+- Jika sudah kalian langsung saja klik menu bagian `publish now`. Untuk mempublish project yang sudah kalian buat.
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium17.png')} height="400px"/>
+  </center>
+
+- Jika sudah kurang lebih tampilan project kalian akan seperti ini.
+
+  **LINK Tugas Mingguan : [Here](https://medium.com/@dev_47792/introduction-to-devops-f6b6938c0707)**
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium18.png')} height="400px"/>
+  </center>
+
+- Setelah itu copy url project kalian lalu berikan share kepada mentor kalian.
+
+

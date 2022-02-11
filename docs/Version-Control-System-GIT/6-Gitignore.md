@@ -2,11 +2,17 @@
 sidebar_position: 6
 ---
 
-# 6. .gitignore
+# 6. Git ignore
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **.gitignore** adalah sebuah file yang berisi daftar nama-nama file dan direktori yang akan **diabaikan/diasingkan** oleh git. Perubahan apapun yang kita lakukan terhadap file dan direktori yang sudah masuk ke dalam daftar **.gitignore** tidak akan dicatat oleh git.
+
+### 6.1 Kenapa Perlu .gitignore?
+Karena untuk di realcasenya di sebagian proyek ada perbedaan antara kode/config, dan file yang dihasilkan dari kode atau konfigurasi tersebut. Yang terakhir ini biasanya tidak membantu dan umumnya dapat diabaikan.
+
+Biasanya kalian hanya ingin kode dan konfigurasi dilacak melalui git. Ini karena file yang dihasilkan bersifat sementara dan jika kalian menghapusnya, Anda bisa membuatnya kembali. Seringkali tidak ada gunanya mengunggahnya karena hanya memperumit masalah dan menyebabkan konflik penggabungan yang tidak perlu. Kita ambil contoh saja dalam proyek `node.js` ada folder bernama `node_modules` yang berisi semua paket external yang perlu dijalankan oleh kode kalian. Kalian dapat menghapus file `node_modules` ini dan dapat membangunnya kembali dengan menjalankan perintah `npm install`.
+
 
 Berikut adalah cara pembuatan **.gitignore**:
 

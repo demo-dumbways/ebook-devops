@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 2. Reverse Proxy
+# 3. Reverse Proxy
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## 2.1 Apa itu Reverse Proxy?
+## 3.1 Apa itu Reverse Proxy?
 
 **Reverse proxy** adalah konfigurasi standar yang digunakan untuk mengubah jalur traffic, misalkan aplikasi menggunakan port 3000 tetapi agar dapat di akses melalui port 80 maka harus menggunakan reverse proxy.
 
@@ -22,10 +22,10 @@ server {
 }
 ```
 
-## 2.2 Kenapa Harus Reverse Proxy?
+## 3.2 Kenapa Harus Reverse Proxy?
 Untuk mengamankan aplikasi yang berjalan pada server maka kita perlu untuk melakukan reverse proxy, supaya pengguna tidak dapat mengakses aplikasi kita secara langsung.
 
-## 2.3 Membuat Konfigurasi Revese Proxy
+## 3.3 Membuat Konfigurasi Revese Proxy
 Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
 
 - Pertama-tama masuk ke folder nginx setelah itu buat suatu directory baru telebih dahulu.
@@ -74,7 +74,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   :::info
-  pastikan port 3000 di ganti sesuai aplikasi yang digunakan.
+  pastikan IP dan port 3000 di ganti sesuai aplikasi yang digunakan.
   :::
 
   <center>
@@ -153,19 +153,46 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   <img alt="image1" src={useBaseUrl('img/docs/web16.png')} height="400px"/>
   </center>
 
-- Jika kita lihat disini adalah kita mendapatkan **502 Bad Gateway** kenapa?, karena kita belum menjalankan aplikasi kita. Sekarang kita coba untuk menjalankan aplikasi sederhana kita di hari lalu.
+- Jika kita lihat disini adalah kita mendapatkan **502 Bad Gateway** kenapa?, karena kita belum menjalankan aplikasi kita. Sekarang kita coba untuk menjalankan aplikasi **dumbflix** yang sudah pernah kita pakai sebelumnya. Untuk menjalankan aplikasi `dumbflix` kalian dapat mengikuti langkah-langkah berikut ini.
 
   ```shell
-  node index.js
+  git clone https://github.com/dumbwaysdev/dumbflix-frontend.git
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web17.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/r1.png')} height="400px"/>
   </center>
+
+  ```shell
+  cd dumbflix-frontend
+  ```
+
+  ```shell
+  npm install
+  ```
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/r2.png')} height="400px"/>
+  </center>
+
+  keterangan : perintah di atas ini bertujuan untuk meng-install module dari aplikasi `node.js`
+
+  ```shell
+  npm start
+  ```
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/r3.png')} height="400px"/>
+  </center>
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/r4.png')} height="400px"/>
+  </center>
+
+  keterangan : perintah di atas ini untuk menjalankan aplikasi
 
 - Selanjutnya kita coba untuk me-refresh web.browser kita.
 - Sekarang bisa kita lihat bahwa aplikasi kita sudah berjalan, dan dapat di akses oleh domain virtual yang kita buat.
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web18.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/r5.png')} height="400px"/>
   </center>

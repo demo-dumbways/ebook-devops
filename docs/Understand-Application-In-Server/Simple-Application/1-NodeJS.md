@@ -37,7 +37,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <img alt="image1" src={useBaseUrl('img/docs/app1.png')} height="400px"/>
   </center>
 
-  keterangan : perintah di atas berguna untuk menginstall **node.js** dengan versi 14. Jika kalian ingin menggunakan **node.js** dengan`version 14`, maka Jalankan perintah `nvm install 14`.
+  keterangan : perintah di atas berguna untuk menginstall **node.js** dengan versi 16. Jika kalian ingin menggunakan **node.js** dengan`version 14`, maka Jalankan perintah `nvm install 14`.
 
   ```shell
   nvm use 16
@@ -47,7 +47,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <img alt="image1" src={useBaseUrl('img/docs/app2.png')} height="400px"/>
   </center>
 
-  keterangan : Untuk menggunakan node.js dengan versi 14
+  keterangan : Untuk menggunakan node.js dengan versi 16
 
   Jika tahapan di atas sudah kalian lakukan, maka kalian sudah berhasil untuk melakukan instalasi **node.js**. Untuk melakukan pengecekan kalian bisa menggunakan perintah di bawah ini.
 
