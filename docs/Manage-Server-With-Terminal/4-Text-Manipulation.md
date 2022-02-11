@@ -8,7 +8,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Pada dasarnya kita bisa melakukan manipulasi pada **sebuah file** menggunakan terminal, tanpa menggunakan teks editor seperti **nano**.
 
-## Berikut adalah contoh beberapa perintah yang dapat digunakan :
+## Text Manipulation Command
+Berikut adalah contoh beberapa perintah yang dapat digunakan :
 
 ### 1. cat
 `Cat` adalah salah satu perintah yang berfungsi untuk membuat daftar konten atau isi file pada standard output (sdout). Yang kalian tahu pasti perintah `cat` hanya bisa untuk melihat isi dari suatu file, sebenarnya tidak hanya itu.

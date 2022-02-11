@@ -6,19 +6,22 @@ sidebar_position: 5
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 5.1 Apa itu Monitoring?
+
 **Monitoring** merupakan aktivitas untuk melihat kinerja sistem secara realtime. Berikut ini adalah beberapa perintah yang dapat kita gunakan untuk memonitoring sebuah server.
 
 - htop
+- nmon
 - lsof
 - ps
 
-## Kenapa perlu Monitoring ?
+## 5.2 Kenapa perlu Monitoring ?
 - Untuk mengetahui apakah ada server down atau tidak.
 - Untuk mengetahui resource dari server tersebut apakah penuh atau tidak.
 - Untuk mengetahui tentang aplikasi yang berada di server kita itu jalan atau tidak, ataupun sudah up to date atau belum.
 
-### Monitoring htop
-**Htop** merupakan perintah untuk memonitoring sistem, kita dapat melihat penggunaan memory, cpu, swap. Berikut adalah contoh penggunaan :
+### htop
+**htop** merupakan perintah untuk memonitoring sistem, kita dapat melihat penggunaan memory, cpu, swap. Berikut adalah contoh penggunaan :
 
 ```shell
 htop
@@ -49,10 +52,11 @@ Keterangan :
 - **VIRT** adalah memory yang terpakai.
 - **Command** adalah perintah apa yang sedang di jalankan.
 
-## Monitoring nmon
+### nmon
 Pada tampilan awal terdapat beberapa pilihan yang dapat kita gunakan, berikut hanyalah contoh penggunaannya :
 
 Untuk instalasi nmon dapat menggunakan perintah berikut :
+
 ```shell
 sudo apt install nmon
 ```
@@ -83,7 +87,7 @@ Berikut adalah tampilan dari nmon untuk menampilkan **cpu, memory, disk, dan net
 <img alt="image1" src={useBaseUrl('img/docs/nmon3.png')} height="500px"/>
 </center>
 
-## Monitoring lsof
+### lsof
 Lsof merupakan singkatan list open files, berfungsi untuk melihat seluruh file yang terbuka berdasarkan proses aktif yang berjalan di sistem. 
 
 Berikut adalah contoh penggunaan :
@@ -117,7 +121,7 @@ lsof -i :80
 
 keterangan : untuk menampilkan proses yang menggunakan port 80
 
-## Monitoring ps
+### ps
 Ps merupakan singkatan dari process status, untuk mengetahui daftar proses yang berjalan pada sistem. 
 
 Berikut adalah contoh penggunaan :

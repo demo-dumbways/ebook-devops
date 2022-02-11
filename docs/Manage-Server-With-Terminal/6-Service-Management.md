@@ -5,23 +5,24 @@ sidebar_position: 6
 # 6. Service Management
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 6.1 Apa itu Service Management?
 **Systemd** adalah standar manager sistem linux saat ini. Fungsinya memberikan sebuah metode untuk mengaktifkan system resources, daemons dan proses lainnya baik itu ketika booting maupun ketika sistem berjalan.
 
 Command yang digunakan untuk systemd adalah `systemctl`.
 
-## Kenapa Service Management ?
+## 6.2 Kenapa Service Management ?
 Kita harus mempelajari service management agar:
 - Dapat menjalan aplikasi secara background.
 - Dapat menjadikan aplikasi auto running ketika server di restart.
 
-## Macam-macam perintah dari systemd :
+## 6.3 Macam-macam perintah dari Systemd
 - Start	: Menjalankan service
 - Restart	: Merestart service yang sedang berjalan
 - Enable	: Mengaktifkan service ketika boot
 - Disable	: Menonaktifkan service ketika boot
 - Status	: Menampilkan status service
 
-## Contoh penggunaan Service Management :
+## 6.4 Contoh penggunaan Service Management
 ### 1. Nginx Instalation
 ```shell
 sudo apt install nginx

@@ -6,16 +6,19 @@ sidebar_position: 7
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## Apa itu Network Firewall?
+
 **Network Firewall** merupakan perintah yang dapat digunakan untuk mengamankan sebuah server. 
 
 Tools yang dapat kita gunakan adalah :
-- Iptables / ufw
+- IPTables dan UFW
 
-**Iptables** merupakan sebuah modul di linux yang memberikan dukungan langsung terhadap kernel untuk keamanan sistem serta beberapa keperluan jaringan. Iptables juga dapat digunakan untuk melakukan seleksi terhadap paket-paket yang datang baik itu output, input berdasarkan IP, port dan sebagainya.
+**IPTables** merupakan sebuah modul di linux yang memberikan dukungan langsung terhadap kernel untuk keamanan sistem serta beberapa keperluan jaringan. Iptables juga dapat digunakan untuk melakukan seleksi terhadap paket-paket yang datang baik itu output, input berdasarkan IP, port dan sebagainya.
 
-**UFW (Uncomplicated firewall)** adalah salah satu fitur frontend iptables pada linux untuk mengkonfigurasi sistem firewall.
+**UFW (Uncomplicated Firewall)** adalah salah satu fitur frontend iptables pada linux untuk mengkonfigurasi sistem firewall.
 
 ## Kenapa perlu Firewall?
+
 **Firewall** merupakan garis pertahanan pertama dalam menjaga keamanan jaringan komputer. **Firewall** menjadi bagian penting dari teknologi sistem keamanan. Selain itu, berbagai jenis firewall bekerja sama untuk menyediakan suatu payung sistem perlindungan lengkap. 
 
 Risiko utama komputer atau jaringan yang tidak dilindungi oleh firewall adalah sebagai berikut:
@@ -24,7 +27,7 @@ Risiko utama komputer atau jaringan yang tidak dilindungi oleh firewall adalah s
 
 - Tanpa firewall dapat membuat perangkat komputer memiliki akses terbuka, yang memungkinkan siapa saja dapat memegang kendali atas komputer dan jaringan pribadi. Peretas dapat melakukan pencurian data pribadi atau menghapus data tersebut.
 
-## UFW Command :
+## Cara Menggunakan UFW
 ### 1. ufw installation
 Untuk melakukan Instalasi kalian bisa menggunakan perintah dibawah ini.
 

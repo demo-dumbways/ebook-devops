@@ -2,15 +2,16 @@
 sidebar_position: 3
 ---
 
-# 3. Teks Editor(Nano)
+# 3. text Editor
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## Apa itu text Editor?
 **Text Editor** adalah sebuah aplikasi yang berjalan di atas terminal, gunanya untuk melakukan manipulasi data pada sebuah file. Pada sebuah server kita wajib mengetahui penggunaan text editor karena di server tidak ada aplikasi yang bersifat GUI.
 
-## Kenapa perlu belajar Teks editor ?
-Karena kita sebagai seorang DevOps engineer pasti akan membuat suatu konfigurasi tertentu untuk memanage suatu aplikasi maupun server. Maka dari itu kita perlu mengetahui beberapa shortcut-shortcut yang dapat membantu kita.
+## Kenapa Harus Belajar text Editor?
+Karena sebagai seorang DevOps pasti akan membuat suatu konfigurasi tertentu untuk memanage suatu aplikasi maupun server. Maka dari itu kita perlu mengetahui beberapa perintah dasar linux sebelum menggunakan editor.
 
-## nano shortcut :
+## Shortcut Nano
 Secara default **nano** sudah terinstall pada sistem operasi linux, untuk memeriksanya kalian bisa gunakan perintah berikut :
 
 ```shell
@@ -50,7 +51,7 @@ nano (location/folder/file-name)
 
 keterangan : location/folder/README.MD merupakan file yang lokasinya berada dalam folder/directory. 
 
-### 2. Exit From teks editor nano
+### 2. Keluar dari text editor
 
 `ctrl + X` untuk keluar dari editor. Jika melakukan perubahan maka akan dimintai konfirmasi apakah perubahan akan disimpan / tidak. Ketik **Y** untuk yes, dan **N** untuk No kemudian tekan **Enter**.
 
@@ -64,30 +65,30 @@ keterangan : location/folder/README.MD merupakan file yang lokasinya berada dala
 
 keterangan : jika kalian ingin mengubah nama dari file, kalian dapat mengubah nama dari yang sebelumnya **README.MD** menjadi **(nama yang kalian inginkan).
 
-`ctrl + O` adalah untuk menyimpan perubahan file tanpa harus keluar dari **teks editor nano**. Kemudian tekan **Enter**.
+`ctrl + O` adalah untuk menyimpan perubahan file tanpa harus keluar dari **text editor nano**. Kemudian tekan **Enter**.
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/nano8.png')} height="500px"/>
 </center>
 
-### 3. Search on nano
-`ctrl + W` adalah untuk mencari teks. Masukkan value ke kolom pencarian kemudian tekan **Enter**.
+### 3. Mencari text
+`ctrl + W` adalah untuk mencari text. Masukkan value ke kolom pencarian kemudian tekan **Enter**.
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/nano9.png')} height="500px"/>
 </center>
 
-### 4. Choose teks
-`ALT + A` : adalah untuk memilih teks, cukup arahkan cursor sesuai teks yang ingin di select.
+### 4. Choose text
+`ALT + A` : adalah untuk memilih text, cukup arahkan cursor sesuai text yang ingin di select.
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/nano10.png')} height="280px"/>
 </center>
 
-### 5. Copy and Paste on nano
-`ALT + 6` : untuk melakukan copy teks yang sudah di select
+### 5. Copy and Paste
+`ALT + 6` : untuk melakukan copy text yang sudah di select
 
-`CTRL + U` : untuk melakukan paste teks yang sudah di copy
+`CTRL + U` : untuk melakukan paste text yang sudah di copy
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/nano10.png')} height="280px"/>
@@ -97,14 +98,14 @@ keterangan : jika kalian ingin mengubah nama dari file, kalian dapat mengubah na
 <img alt="image1" src={useBaseUrl('img/docs/nano11.png')} height="280px"/>
 </center>
 
-### 6. Cut teks and Paste on nano
+### 6. Cut text and Paste
 `CTRL + K` : untuk melakukan cut pada text yang sudah di select
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/nano12.png')} height="500px"/>
 </center>
 
-`CTRL + U` : untuk melakukan paste teks yang sudah di cut
+`CTRL + U` : untuk melakukan paste text yang sudah di cut
 
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/nano13.png')} height="500px"/>

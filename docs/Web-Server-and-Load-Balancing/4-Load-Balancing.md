@@ -13,9 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Jika kita memiliki website atau aplikasi yang telah digunakan hingga ribuan, ratusan atau bahkan jutaan pengguna maka kita harus melakukan load balancing pada aplikasi tersebut agar tidak down, karena beban akses pengguna dibagi ke beberapa server sekaligus.
 
 ## 4.3 Membuat Konfigurasi Load Balancing
-- Untuk membuat Load Balancing kalian harus membuat server baru lagi. Untuk cara membuat server kalian ikuti saja step by step seperti saat pertemuan **Fundamental DevOps**
-
-[Install Ubuntu Server](/Fundamental-DevOps/5-Install-Ubuntu-Server.md)
+- Untuk membuat Load Balancing kalian harus membuat server baru lagi. Untuk cara membuat server kalian ikuti saja step by step seperti saat pertemuan Fundamental DevOps : [Install Ubuntu Server](/Fundamental-DevOps/5-Install-Ubuntu-Server.md)
 
 - Jika server kalian sudah terbuat maka buatlah aplikasi sederhana sama seperti pertemuan sebelumnya (node.js). setelah itu jalankan aplikasi tersebut.
 
@@ -61,7 +59,7 @@ keterangan :
 - Pada bagian **server** masukan **IP** dari server kalian, setelah itu diikuti dengan port aplikasi.
 - Selanjutnya pada bagian **proxy_pass** ubah dari yang sebelumnya adalah alamat **IP** dari aplikasi kalian, sekarang kalian samakan dengan nama **upstream** yang ada di konfigurasi kalian.
 
-- Jika sudah sekarang kita coba cek apakah konfigurasi yang sudah kita buat tadi itu eror atau tidak.
+- Jika sudah sekarang kita coba cek apakah konfigurasi yang sudah kita buat tadi itu error atau tidak.
 
   ```shell
   sudo nginx -t
@@ -71,7 +69,7 @@ keterangan :
   <img alt="image1" src={useBaseUrl('img/docs/b4.png')} height="500px"/>
   </center>
 
-- Jika tidak ada eror jalankan perintah `restart nginx` untuk merestart `nginx` kita, karena kita sudah menambahkan suatu konfigurasi baru di dalam file **reverse proxy** kita.
+- Jika tidak ada error jalankan perintah `restart nginx` untuk merestart `nginx` kita, karena kita sudah menambahkan suatu konfigurasi baru di dalam file **reverse proxy** kita.
 
 ```shell
 sudo systemctl restart nginx
@@ -107,5 +105,5 @@ sudo systemctl restart nginx
   </center>
 
   :::info
-  Jika aplikasi kalian masih bisa di akses berarti **konfigurasi Load Balance** kalian berhasil dan tidak ada eror
+  Jika aplikasi kalian masih bisa di akses berarti **konfigurasi Load Balance** kalian berhasil dan tidak ada error
   :::
