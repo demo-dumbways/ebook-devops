@@ -7,8 +7,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Pada pembelajaran kali ini kita akan membuat study case seperti berikut:
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/vm32.png')} />
-</center>
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/web18.png')} height="400px"/>
+  </center>
 
 Kita akan menginstall dan mengkonfigurasi web server menggunakan nginx, konfigurasi yang akan kita pelajari adalah reverse proxy dan load balancing.

@@ -7,6 +7,8 @@ Kita akan mencoba untuk membuat beberapa simple apllikasi.
 
 ### 1. Node.Js
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 - Pertama-tama kita harus meng-install terlebih engine-nya dahulu. Untuk instalasi kalian bisa menggunakan beberapa perintah dibawah ini.
 
  ```shell

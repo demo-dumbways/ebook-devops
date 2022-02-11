@@ -1,12 +1,12 @@
 ---
-sidebar_position: 6
+sidebar_position: 13
 ---
 
-# 6. Task
+# 13. Task
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## 6.1 Instruksi
+## 13.1 Instruksi
 
 :::caution
 Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan sebagai dokumentasi tugas.
@@ -37,7 +37,7 @@ Setelah mempelajari terkait konfigurasi dan instalasi linux server, maka silakan
 - Application  : Install Apache2 Secara Manual
 - Apache dapat diakses melalui browser
 
-## 6.2 Pengumpulan
+## 13.2 Pengumpulan
 1. Pastikan untuk clone repository berikut ini, sebagai template tugas: https://github.com/dumbwaysdev/dumbways-report
 2. Tulis step-by-step yang telah Anda lakukan secara detail dan sertakan screenshot setiap prosesnya. 
 3. Setelah menyelesaikan tugas, silakan push pekerjaan Anda ke repository milik Anda. 
@@ -46,7 +46,7 @@ Setelah mempelajari terkait konfigurasi dan instalasi linux server, maka silakan
 Referensi:
 - [Version Control](/Getting-Started/Version-control/Git-Installation)
 
-## 6.3 Project Management
+## 13.3 Project Management
 Tambahkan deskripsi berikut ke dalam kanban pada project management Anda
 ```
 Konfigurasi environment dan instalasi linux server, dimana server tersebut dapat terkoneksi ke internet dan juga dapat di akses melalui SSH / Browser.
@@ -66,5 +66,5 @@ Referensi:
 - [Membuat GitHub Project](/Getting-Started/Project-Management/Make-Project-Management)
 - [Manage GitHub Issue](/Getting-Started/Project-Management/Issue-Dan-Status-Project)
 
-## 6.4 Diskusi
+## 13.4 Diskusi
 Silakan diskusikan terkait kendala atau kesulitan selama pembelajaran pada platform diskusi (slack/talk.ink) dengan membuat thread, misalnya "Introduction DevOps: problem cannot connect to network in VMware" 

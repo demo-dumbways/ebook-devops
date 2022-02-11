@@ -3,6 +3,9 @@ sidebar_position: 2
 ---
 
 ### 2. Go
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 - Pertama-tama sama seperti sebelumnya, kita harus mendownload engine-nya terlebih dahulu.
 
 ```shell

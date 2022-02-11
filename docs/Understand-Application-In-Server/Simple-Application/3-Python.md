@@ -3,6 +3,9 @@ sidebar_position: 3
 ---
 
 ### 3. Python3
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 - Pertama-tama kita harus install terlebih dahulu **Pyhton3**. Untuk instalasi ikuti beberapa perintah di bawah ini.
 
 ```shell

@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 
-# 3. How To Create Medium Project
+# 3. How To Create an Article
 
 :::info
 Step by step penggunaan **Medium** ini akan digunakan untuk mengerjakan tugas mingguan.
@@ -34,4 +34,24 @@ Sekarang kita akan mecoba membuat suatu project untuk tugas mingguan kalian.
   keterangan : pastikan dibagian **title/judul** sesuai dengan section tugas yang kalian kerjakan
 
 - Kalian juga dapat memasukkan hasil dari screenshoot tugas-tugas yang sudah kalian kerjakan.
-- Untuk memasukkan gambar kalian dapat mengikuti 
+- Untuk cara memasukkan gambar ke dalam project kalian, kalian dapat megikuti cara dibawah ini
+ - Kalian dapat klik menu `+` dibagian bawah title/judul kalian 
+ - Setelah itu klik menu yang berbentuk **Kamera**.
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium11.png')} height="400px"/>
+  </center>
+
+ - Selanjutnya kalian cari lokasi dari screenshoot kalian, setelah itu tekan `open`.
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium12.png')} height="400px"/>
+  </center>
+
+ - Jika kalian telah melakukan tahapan di atas kalian telah berhasil untuk memasukkan gambar ke dalam project kalian.
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/medium13.png')} height="400px"/>
+  </center>
+
+- 

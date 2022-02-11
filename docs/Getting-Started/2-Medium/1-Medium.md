@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 1. Medium
+# 1. What Is Medium?
 
 :::info
 Step by step penggunaan **Medium** ini akan digunakan untuk mengerjakan tugas mingguan.
