@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
-# 7. Git add and Commit
+# 8. Git add and Commit
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

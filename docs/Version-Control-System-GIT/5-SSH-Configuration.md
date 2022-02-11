@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# 4. SSH key for Github
+# 5. SSH key for Github
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
-# 8. Git Remote
+# 9. Git Remote
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
