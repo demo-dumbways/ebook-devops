@@ -1,21 +1,21 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# 2. Computer Networking
+# 1. Computer Networking
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Jaringan Komputer** adalah koneksi antara 2 komputer atau lebih, yang saling terhubung dengan media transmisi kabel atau tanpa kabel (wireless). Komputer saling terkoneksi apabila komputer tersebut bisa saling bertukar data / informasi, berbagi resource yang dimiliki seperti file, printer, hard disk, dll.
 
-## Kenapa Jaringan Komputer ?
+## Kenapa Harus Jaringan Komputer ?
 Berikut adalah alasan kenapa harus mempelajari jaringan komputer:
 - Mempercepat arus informasi 
 - Mempermudah komunikasi antar individu 
 - Mempercepat proses pengiriman data dan juga sumberdaya 
 - Membantu mengkoneksikan kantor cabang yang berbeda pulau dan juga benua
 
-## Network Types
+## 1.1 Network Types
 Jaringan komputer memiliki tipe-tipe sebagai berikut :
 
 ### 1. Jaringan client - server
@@ -49,10 +49,8 @@ Jaringan ini adalah **non-dedicated server**, karena server tidak berperan sebag
 - Sistem keamanan jaringan ditentukan oleh masing-masing user
 - Data jaringan tersebar di masing-masing komputer , maka backup harus di lakukan oleh masing-masing komputer.
 
-## IP Address
+## 1.2 Jenis IP Address
 **IP Address** adalah **Internet Protocol Address**, serangkaian angka unik milik perangkat yang terhubung ke jaringan yang lebih luas. IP Address diperlukan agar perangkat dan server dapat bertukar informasi satu sama lain.
-
-## Jenis-Jenis IP Address :
 
 ### 1. IP Address Publik
 IP Address Publik adalah alamat IP yang digunakan router untuk berkomunikasi dengan jaringan yang lebih luas. Diberikan oleh penyedia layanan internet (ISP), dimana terdapat informasi sehingga dapat dilacak.
@@ -66,7 +64,7 @@ IP Address Private adalah alamat IP pribadi yang dimiliki oleh setiap perangkat,
 <img alt="image1" src={useBaseUrl('img/docs/net3.png')} height="350px"/>
 </center>
 
-## Sifat-Sifat IP Address :
+## 1.3 Sifat-Sifat IP Address :
 
 ### 1. IP Address Dinamis
 **IP Address Dinamis** merupakan pemberian IP secara otomatis dalam sebuah jaringan baik itu bersifat IP publik atau IP private. IP ini akan berubah-ubah setiap waktu.

@@ -1,11 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
-# 3. Localtunnel
+# 5. Localtunnel
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 5.1 Apa itu Localtunnel?
 **Localtunnel** adalah sebuah tools yang memungkinkan kita untuk berbagi layanan website dari lokal komputer ke publik dengan url akses yang disediakan oleh localtunnel.
 
 **Ilustrasi bagaimana cara Localtunnel bekerja**
@@ -14,68 +15,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img alt="image1" src={useBaseUrl('img/docs/localtunnel.png')} height="300px"/>
 </center>
 
-## Kenapa Localtunnel ?
+## 5.2 Kenapa Localtunnel ?
 - Kita dapat membuat aplikasi web dapat diakses secara publik.
 - Tidak perlu meletakkan web tersebut ke server online.
 - Tidak perlu membeli domain.
 
-### 1. Install node.js
+## 5.3 Bagaimana Menggunakan Localtunnel?
 
-- Install terlebih dahulu node.js menggunakan nvm, Untuk installasi bisa mengikuti step by step dibawah.
-
-```
-sudo apt install curl
-```
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun1.png')} height="400px"/>
-</center>
-
-```shell
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-```
-
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun2.png')} height="400px"/>
-</center>
-
-```shell
-exec bash
-```
-
-```shell
-nvm install 14
-```
-
-Jika kalian sudah melakukan step by step diatas maka instalasi sudah selesai. Untuk mengecek Versi dari **nvm**, **node.js**, dan **npm** yang kita gunakan bisa menggunakan perintah di bawah.
-
-```shell
-nvm -v
-```
-
-```shell
-node -v
-```
-
-```shell
-npm -v
-```
-
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun3.png')} height="400px"/>
-</center>
-
-### 2. Localtunnel Installation
-
-```shell
-npm install -g localtunnel
-```
-
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun4.png')} height="400px"/>
-</center>
-
-### 3. How to use Localtunnel
-Disini kita akan coba untuk menjalankan suatu aplikasi. Untuk bagaimana cara menggunakan localtunnel ini bisa ikuti step by step dibawah ini.
+Kita akan mencoba untuk melakukan konfigurasi localtunnel agar server kita dapat di akses secara publik. Berikut adalah step by step cara menggunakannya:
 
 ```shell
 git clone https://github.com/dumbwaysdev/dumbflix-frontend.git
