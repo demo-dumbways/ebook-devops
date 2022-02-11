@@ -2,8 +2,9 @@
 sidebar_position: 1
 ---
 
-# 1. Apa itu CI/CD
+# 1. CI/CD
 
+## Apa itu CI/CD?
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 CI/CD atau **Continuous Integration** dan **Continuous Deployment** merupakan metode untuk mengirimkan perubahan code secara terus menerus hingga aplikasi dapat release ke publik dengan otomatis.

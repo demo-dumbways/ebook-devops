@@ -39,7 +39,7 @@ Setelah mempelajari terkait konfigurasi dan instalasi linux server, maka silakan
 3. Setelah menyelesaikan tugas, silakan publish artikel yang sudah dibuat.
 
 Referensi:
-- [Medium](/Getting-Started/Medium/Medium-Registrasi)
+- [Medium](/Getting-Started/Medium/Medium)
 
 ## 6.3 Project Management
 Tambahkan deskripsi berikut ke dalam kanban pada project management Anda
