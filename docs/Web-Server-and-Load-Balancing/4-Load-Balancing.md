@@ -2,16 +2,20 @@
 sidebar_position: 3
 ---
 
-# 3. Load Balancing
+# 4. Load Balancing
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 4.1 Apa itu Load Balancing?
 **Load Balancing** adalah suatu jaringan komputer yang menggunakan metode untuk mendistribusikan beban kerjaan pada dua atau bahkan lebih suatu koneksi jaringan secara seimbang agar pekerjaan dapat berjalan optimal dan tidak overload (kelebihan) beban pada salah satu jalur koneksi.
 
-### Make Load Balancing Configuration
+## 4.2 Kenapa Harus Load Balancing?
+Jika kita memiliki website atau aplikasi yang telah digunakan hingga ribuan, ratusan atau bahkan jutaan pengguna maka kita harus melakukan load balancing pada aplikasi tersebut agar tidak down, karena beban akses pengguna dibagi ke beberapa server sekaligus.
+
+## 4.3 Membuat Konfigurasi Load Balancing
 - Untuk membuat Load Balancing kalian harus membuat server baru lagi. Untuk cara membuat server kalian ikuti saja step by step seperti saat pertemuan **Fundamental DevOps**
 
-[Install Ubuntu Server](https://e-book-dev-ops-3qluh1rwd-rizqyalvindra-gmailcom.vercel.app/Fundamental-DevOps-1/Install.Ubuntu.Server)
+[Install Ubuntu Server](/Fundamental-DevOps/5-Install-Ubuntu-Server.md)
 
 - Jika server kalian sudah terbuat maka buatlah aplikasi sederhana sama seperti pertemuan sebelumnya (node.js). setelah itu jalankan aplikasi tersebut.
 
@@ -46,7 +50,6 @@ sudo nano sudo nano /etc/nginx/dumbways/my.reverse-proxy.conf
       }
   }
   ```
-
 
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/b3.png')} height="400px"/>

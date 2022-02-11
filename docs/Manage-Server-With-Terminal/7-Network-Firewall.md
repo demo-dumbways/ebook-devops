@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
-# 5. Network Firewall
+# 7. Network Firewall
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

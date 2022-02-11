@@ -15,7 +15,7 @@ Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan
 Setelah mempelajari terkait konfigurasi dan instalasi linux server, maka silakan buat sebuah environment linux dengan ketentuan sebagai berikut:
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/task.png')} />
+<img alt="image1" src={useBaseUrl('img/docs/vm28.png')} />
 </center>
 
 ### VMware Environment
@@ -33,18 +33,13 @@ Setelah mempelajari terkait konfigurasi dan instalasi linux server, maka silakan
 - Server Name  : (your-name)
 - OpenSSH      : True
 
-### Setelah Linux Terinstall
-- Application  : Install Apache2 Secara Manual
-- Apache dapat diakses melalui browser
-
 ## 6.2 Pengumpulan
-1. Pastikan untuk clone repository berikut ini, sebagai template tugas: https://github.com/dumbwaysdev/dumbways-report
+1. Pastikan untuk mengerjakan tugas mingguan pada medium.com.
 2. Tulis step-by-step yang telah Anda lakukan secara detail dan sertakan screenshot setiap prosesnya. 
-3. Setelah menyelesaikan tugas, silakan push pekerjaan Anda ke repository milik Anda. 
-4. Upload tugas yang telah dibuat ke repository GitHub Anda.
+3. Setelah menyelesaikan tugas, silakan publish artikel yang sudah dibuat.
 
 Referensi:
-- [Version Control](/Getting-Started/Version-control/Git-Installation)
+- [Medium](/Getting-Started/Medium/Medium-Registrasi)
 
 ## 6.3 Project Management
 Tambahkan deskripsi berikut ke dalam kanban pada project management Anda
@@ -58,8 +53,6 @@ Konfigurasi environment dan instalasi linux server, dimana server tersebut dapat
 - [ ] Buat swap memory and root partition
 - [ ] Docker terinstal secara otomatis setelah proses instalasi linux ubuntu server
 - [ ] Local server dapat terkoneksi dengan internet
-- [ ] Dapat di SSH dari lokal komputer ke dalam virtual machine
-- [ ] Instalasi apache2 secara manual dan dapat di akses melalui browser
 ```
 
 Referensi:

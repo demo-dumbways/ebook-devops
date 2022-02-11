@@ -1,17 +1,18 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# 1. Linux Shell
+# 3. Linux Shell
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 3.1 Apa itu Shell Linux?
 **Shell Linux** merupakan program berbasis unix atau linux yang menghubungkan antara users dengan sistem operasi. **Shell script** yang biasa digunakan pada linux adalah **BASH (Bourne-Again-Shell).
 
-## Kenapa Linux Shell?
+## 3.2 Kenapa Harus Linux Shell?
 
 Pada sistem operasi server berbasis unix/linux memiliki tampailan berbasis text, tidak seperti sistem operasi windows yang memiliki interface yang dapat di klik-klik. Sehingga memerlukan keahlian khusus untuk memanajemen server-server linux.
 
-## Perintah-Perintah Dasar :
+## 3.3 Perintah Dasar Linux:
 
 ### 1. sudo 
 **sudo** adalah suatu perintah untuk memungkin kalian untuk menjalankan program sebagai pengguna lain.
@@ -153,7 +154,7 @@ cat index.js
 <img alt="image1" src={useBaseUrl('img/docs/shell12.png')} height="400px"/>
 </center>
 
-### 12. find -type
+### 12. find
 **find -type** adalah perintah untuk mencari suatu **file** maupun **directory**. Contoh disini kita akan mencari file index.js dan directory studycase yang sudah kita buat(**f** mengartikan file, sedangkan **d** adalah directory ).
 
 ```shell
@@ -183,7 +184,7 @@ grep -r hello
 <img alt="image1" src={useBaseUrl('img/docs/shell14.png')} height="400px"/>
 </center>
 
-### 14. chmod 777 
+### 14. chmod
 **chmod 777** adalah perintah untuk mengganti permission file maupun directory. Sekarang kita coba untuk mengganti permission untuk file **index.html** yang sudah kita buat sebelumnya.
 
 ```shell
@@ -350,7 +351,7 @@ rm file1
 **rmdir** adalah perintah untuk menghapus suatu directory. Contoh disini kita coba membuat satu directory baru lalu kita coba untuk menghapus directory yang sudah kita buat tadi.
 
 ```shell
-rmdir DevOps
+rmdir devops
 ```
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell29.png')} height="400px"/>

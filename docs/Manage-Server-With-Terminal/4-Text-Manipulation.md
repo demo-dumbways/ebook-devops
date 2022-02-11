@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# 3. Teks Manipulation
+# 4. Teks Manipulation
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
