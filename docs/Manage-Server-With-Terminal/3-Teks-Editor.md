@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 2. Teks Editor(Nano)
+# 3. Teks Editor(Nano)
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Text Editor** adalah sebuah aplikasi yang berjalan di atas terminal, gunanya untuk melakukan manipulasi data pada sebuah file. Pada sebuah server kita wajib mengetahui penggunaan text editor karena di server tidak ada aplikasi yang bersifat GUI.

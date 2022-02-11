@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 ---
 
-# 2. Service Management
+# 6. Service Management
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Systemd** adalah standar manager sistem linux saat ini. Fungsinya memberikan sebuah metode untuk mengaktifkan system resources, daemons dan proses lainnya baik itu ketika booting maupun ketika sistem berjalan.

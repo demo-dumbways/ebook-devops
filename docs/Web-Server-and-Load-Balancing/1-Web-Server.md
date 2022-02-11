@@ -6,12 +6,13 @@ sidebar_position: 1
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## 1.1 Apa itu Web Server?
 **Web Server** adalah sebuah software yang memberikan layanan berupa data. Berfungsi untuk menerima permintaan **HTTP** atau **HTTPS** dari client atau di kenal dengan **web browser (chrome atau firefox)**. Kemudian web server akan mengirimkan respon atas permintaan tersebut dalam bentuk halaman web.
 
-## Kenapa kita harus belajar Web Server ?
+## 1.2 Kenapa Harus Belajar Web Server?
 Karena **Web server** memiliki peran penting dalam mengendalikan proses kerja dari sebuah website. Tanpa adanya web server, kamu tidak bisa melakukan permintaan data apapun pada suatu halaman atau page di web browser. 
 
-### 1. Web Server Workflow 
+## 1.3 Bagaimana Cara Kerja Web Server?
 
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/web1.png')} height="400px"/>
@@ -21,19 +22,19 @@ cara kerja web server adalah dengan menerima permintaan yang berasal dari klien 
 
 Perangkat lunak yang digunakan pada web server terdapat di komputer server sebagai tempat menyimpan data-data website. Selain itu, komputer server membutuhkan akses internet yang cukup agar tetap terhubung dan dapat diakses oleh klien.
 
-### 2. Fungsi Web Server
+## 1.4 Fungsi Web Server
 - Memberikan berbagai cache yang terdapat pada penyimpanan serta semua dokumen yang tidak terpakai lagi.
 - Melakukan pemeriksaan terhadap sistem security yang berasal dari permintaan HTTP berdasarkan request client atau web browser.
 - Menyediakan data berdasarkan request atau permintaan yang masuk agar dapat menjamin keamanan sistem yang berjalan dengan lancar.
 
-### 3. Jenis-Jenis Web Server
+## 1.5 Jenis-Jenis Web Server
 - Apache
 - Nginx
 - IIS
 - Lightspeed
 - Lightpd
 
-### 4. Nginx Instalation
+## 1.6 Instalasi Nginx dan Service Management
 Sekarang kita akan mencoba untuk melakukan instalasi salah satu web server yang terkenal yaitu adalah **Nginx**.
 
 Berikut adalah cara untuk melakukan Instalasi **Nginx**
@@ -62,7 +63,7 @@ nginx -v
   <img alt="image1" src={useBaseUrl('img/docs/web2.png')} height="400px"/>
   </center>
 
-### 5. Nginx Status
+### 1. Nginx Status
 ```shell
 sudo systemctl status nginx
 ```
@@ -74,7 +75,7 @@ sudo systemctl status nginx
 
 keterangan : perintah untuk melihat status dari `Nginx`.
 
-### 6. Enable nginx
+### 2. Enable nginx
 ```shell
 sudo systemctl enable nginx
 ```
@@ -86,7 +87,7 @@ sudo systemctl enable nginx
 
 Keterangan : perintah untuk menghidupkan sistem dari `Nginx`
 
-### 7. Start nginx
+### 3. Start nginx
 ```shell
 sudo systemctl start nginx
 ```
@@ -98,7 +99,7 @@ sudo systemctl start nginx
 
 keterangan : perintah untuk menjalankan sistem dari `Nginx`
 
-### 8. Restart nginx
+### 4. Restart nginx
 ```shell
 sudo systemctl restart nginx
 ```
@@ -110,7 +111,7 @@ sudo systemctl restart nginx
 
 keterangan : perintah untuk merestart sistem dari `Nginx`
 
-### 9. Reload nginx
+### 5. Reload nginx
 ```shell
 sudo systemctl reload nginx
 ```
@@ -122,7 +123,7 @@ sudo systemctl reload nginx
 
 keterangan : perintah untuk me-reload sistem dari `Nginx`
 
-### 10. Disable nginx
+### 6. Disable nginx
 ```shell
 sudo systemctl disable nginx
 ```
@@ -134,7 +135,7 @@ sudo systemctl disable nginx
 
 keterangan : perintah untuk mematikan sistem dari `Nginx`
 
-### 11. Stop nginx
+### 7. Stop nginx
 ```shell
 sudo systemctl stop nginx
 ```
@@ -146,7 +147,7 @@ sudo systemctl stop nginx
 
 keterangan : perintah untuk menghentikan sistem dari `Nginx`
 
-### 12. Check Nginx
+### 8. Check Nginx
 Kemudian untuk melihat nginx telah terinstall. Kalian dapat mengakses IP dari server kalian, maka akan terlihat seperti berikut, sebelum itu lakukan beberapa perintah berikut karena di tahapan sebelumnya kita telah menghentikan **Nginx** yang sudah kita install.
 
 ```shell

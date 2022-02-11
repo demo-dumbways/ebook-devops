@@ -11,4 +11,4 @@ Pada pembelajaran kali ini kita akan membuat study case seperti berikut:
 <img alt="image1" src={useBaseUrl('img/docs/vm32.png')} />
 </center>
 
-Kita akan menginstall dan mengkonfigurasi web server menggunakan nginx, konfigurasi yang akan kita pelajari adalah reverse proxy dan load balancing.
+Kita akan mengkonfigurasi server agar dapat digunakan untuk menjalankan aplikasi yang dibuat dengan bahasa pemrograman NodeJS, Python dan Go.
