@@ -13,7 +13,7 @@ wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app15.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app15.png')} height="500px"/>
   </center>
 
 ```shell
@@ -21,7 +21,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app16.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app16.png')} height="500px"/>
   </center>
 
 -  Selanjutnya masukkan path go pada `.bashrc`
@@ -30,7 +30,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app17.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app17.png')} height="500px"/>
   </center>
 
   ```shell
@@ -38,7 +38,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app18.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app18.png')} height="500px"/>
   </center>
 
 - Jika sudah sekarang dapat verifikasi go dengan cara berikut.
@@ -47,7 +47,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app19.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app19.png')} height="500px"/>
   </center>
 
 - Sekarang kita akan membuat aplikasi sederhana menggunakan `go`. Kalian dapat menjalankan beberapa perintah berikut ini.
@@ -70,7 +70,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app20.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app20.png')} height="500px"/>
   </center>
 
 
@@ -80,7 +80,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app21.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app21.png')} height="500px"/>
   </center>
 
 - Jika aplikasi kalian ingin di build, maka jalankan perintah berikut ini.
@@ -90,7 +90,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app22.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app22.png')} height="500px"/>
   </center>
 
 - Jika sudah jalankan aplikasi dengan menggunakan perintah berikut.
@@ -99,7 +99,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app23.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app23.png')} height="500px"/>
   </center>
 
 

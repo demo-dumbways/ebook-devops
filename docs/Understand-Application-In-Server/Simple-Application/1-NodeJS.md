@@ -16,7 +16,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
  ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/tun2.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/tun2.png')} height="500px"/>
   </center>
 
   keterangan : disini kita menggunakan `nvm` 
@@ -34,7 +34,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   ```
   
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app1.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app1.png')} height="500px"/>
   </center>
 
   keterangan : perintah di atas berguna untuk menginstall **node.js** dengan versi 14. Jika kalian ingin menggunakan **node.js** dengan`version 14`, maka Jalankan perintah `nvm install 14`.
@@ -44,7 +44,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app2.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app2.png')} height="500px"/>
   </center>
 
   keterangan : Untuk menggunakan node.js dengan versi 14
@@ -60,7 +60,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app3.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app3.png')} height="500px"/>
   </center>
 
 - Selanjutnya kita akan menjalankan perintah `npm init` gunanya untuk mengisiasi project, Hasil dari kalian menjalankan perintah akan membuat file baru dengan nama **package.json**, **package.json** ini berisikan isi informasi dari aplikasi yang akan kalian buat.
@@ -70,7 +70,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app4.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app4.png')} height="500px"/>
   </center>
 
 - Selanjutnya kita akan menginstall **Express JS**. **Express JS** adalah framework dari NodeJS yang dirancang secara fleksibel dan sederhana untuk membantu tahap pengembangan aplikasi back end. Menginstall **express js** dapat dilakukan menggunakan **NPM** dengan perintah berikut:
@@ -80,7 +80,7 @@ npm install express --save
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app5.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app5.png')} height="500px"/>
   </center>
 
 - Jika sudah buat file dengan nama `index.js`, lalu masukan script dibawah ini
@@ -103,7 +103,7 @@ app.listen(port, () => {
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app6.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app6.png')} height="500px"/>
   </center>
 
 - Jika sudah sekarang kita akan coba untuk menjalankan aplikasi sederhana yang sudah kita buat. Untuk menjalankan dapat menggunakan perintah berikut ini.
@@ -113,13 +113,13 @@ node index.js
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app7.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app7.png')} height="500px"/>
   </center>
 
 keterangan : untuk keluar bisa menggunakan `CTRL + X`
 
-- Sekarang coba akses Web.Browser kalian setelah itu kalian coba akses dengan `localhost:3000`
+- Sekarang coba akses web browser kalian setelah itu kalian coba akses dengan `localhost:3000`
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app8.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app8.png')} height="500px"/>
   </center>

@@ -34,7 +34,7 @@ htop
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/htop.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/htop.png')} height="500px"/>
 </center>
 
 Keterangan :
@@ -58,7 +58,7 @@ sudo apt install nmon
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nmon.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nmon.png')} height="500px"/>
 </center>
 
 Untuk menjalankan nmon kalian dapat menggunakan perintah dibawah ini
@@ -66,7 +66,7 @@ Untuk menjalankan nmon kalian dapat menggunakan perintah dibawah ini
 nmon
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nmon2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nmon2.png')} height="500px"/>
 </center>
 
 Keterangan : 
@@ -80,7 +80,7 @@ Disini kita dapat memilih ingin memonitoring apa saja, Disini kita coba saja unt
 Berikut adalah tampilan dari nmon untuk menampilkan **cpu, memory, disk, dan network**
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nmon3.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nmon3.png')} height="500px"/>
 </center>
 
 ## Monitoring lsof
@@ -92,7 +92,7 @@ lsof
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/lsof1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/lsof1.png')} height="500px"/>
 </center>
 
 keterangan : untuk menampilkan seluruh proses
@@ -102,7 +102,7 @@ lsof -u (your-user)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/lsof2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/lsof2.png')} height="500px"/>
 </center>
 
 keterangan : menampilkan proses yang dilakukan oleh user “your-user”
@@ -112,7 +112,7 @@ lsof -i :80
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/lsof3.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/lsof3.png')} height="500px"/>
 </center>
 
 keterangan : untuk menampilkan proses yang menggunakan port 80
@@ -126,7 +126,7 @@ ps -f -u (your-user)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ps1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ps1.png')} height="500px"/>
 </center>
 
 keterangan : untuk menampilkan proses pada user “your-user”
@@ -136,7 +136,7 @@ ps -aux
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ps2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ps2.png')} height="500px"/>
 </center>
 
 keterangan : untuk menampilkan seluruh proses secara lengkap

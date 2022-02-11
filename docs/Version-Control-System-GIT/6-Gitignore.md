@@ -16,7 +16,7 @@ Berikut adalah cara pembuatan **.gitignore**:
     touch file1 file2 file3
     ```
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git11.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git11.png')} height="500px"/>
   </center>
 
 - Setelah itu kita coba cek menggunakan perintah `git status` 
@@ -25,7 +25,7 @@ Berikut adalah cara pembuatan **.gitignore**:
     git status
     ```
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git12.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git12.png')} height="500px"/>
   </center>
 
   Disini kita dapat melihat masih ada `file1`, `file2`, dan `file3`. 
@@ -37,7 +37,7 @@ Berikut adalah cara pembuatan **.gitignore**:
     touch .gitignore
     ```
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git13.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git13.png')} height="500px"/>
   </center>
 
 - Selanjutnya sekarang kita masukan nama file yang ingin kita **abaikan/asingkan** `(file3)`.
@@ -46,7 +46,7 @@ Berikut adalah cara pembuatan **.gitignore**:
     sudo nano .gitignore
     ```
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git14.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git14.png')} height="500px"/>
   </center>  
 
 - Jika sudah sekarang kita cek lagi apakah `file3` masih terbaca atau tidak dengan menggunakan perintah `git status`.
@@ -56,7 +56,7 @@ Berikut adalah cara pembuatan **.gitignore**:
     ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git15.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git15.png')} height="500px"/>
   </center>
 
     Kalau kita lihat sekarang `file3` sudah tidak terbaca lagi mengapa? Karena kita sudah mengasingkan `file3` di file `.gitignore`. 

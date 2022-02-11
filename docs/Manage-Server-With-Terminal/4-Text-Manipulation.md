@@ -20,7 +20,7 @@ cat (file-name)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks1.png')} height="500px"/>
 </center>
 
 keterangan : untuk melihat isi dari suatu file
@@ -30,7 +30,7 @@ cat > (file-name)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks2.png')} height="500px"/>
 </center>
 
 keterangan : untuk membuat suatu file baru serta memasukkan teks, Jika sudah menambakan teks kalian dapat keluar dengan klik `CTRL + C`.
@@ -40,7 +40,7 @@ cat file1 file2 > file3
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks3.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks3.png')} height="500px"/>
 </center>
 
 keterangan : untuk menggabungkan dua buah file, dan menyimpannya ke dalam file3
@@ -55,7 +55,7 @@ sed -i 's/Hello/Holla/g' file3
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks4.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks4.png')} height="500px"/>
 </center>
 
 keterangan : mengganti semua kata **Hello** menjadi **Holla** pada file3 
@@ -70,7 +70,7 @@ grep Dumbways file3
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks5.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks5.png')} height="500px"/>
 </center>
 
 keterangan : akan mencari kata **Dumbways** pada file3
@@ -80,7 +80,7 @@ grep -c Dumbways file3
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks6.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks6.png')} height="500px"/>
 </center>
 
 keterangan : akan menghitung jumlah kata “Dumbways” pada filetiga
@@ -90,7 +90,7 @@ grep Dumbways *
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks7.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks7.png')} height="500px"/>
 </center>
 
 keterangan : akan mencari semua file yang berisikan kata **Dumbways**
@@ -105,7 +105,7 @@ sort file4
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks8.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks8.png')} height="500px"/>
 </center>
 
 keterangan : untuk mengurutkan berdasarkan ascending
@@ -115,7 +115,7 @@ sort -r file4
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks9.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks9.png')} height="500px"/>
 </center>
 
 keterangan : untuk mengurutkan berdasarkan descending
@@ -130,7 +130,7 @@ echo "Hello Dumbways!"
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks10.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks10.png')} height="500px"/>
 </center>
 
 keterangan : untuk mencetak string **
@@ -140,7 +140,7 @@ echo "Hello Dumbways!" >> file3
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks11.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks11.png')} height="500px"/>
 </center>
 
 keterangan : untuk mencetak kata **Hello Dumbways!** di file3
@@ -149,7 +149,7 @@ keterangan : untuk mencetak kata **Hello Dumbways!** di file3
 echo "Replace semua data" > file5
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/teks12.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/teks12.png')} height="500px"/>
 </center>
 
 keterangan : untuk mereplace semua data di file5 dan menggantinya dengan **"Replace semua data"**

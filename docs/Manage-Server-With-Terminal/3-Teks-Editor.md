@@ -17,7 +17,7 @@ Secara default **nano** sudah terinstall pada sistem operasi linux, untuk memeri
 nano --version
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano1.png')} height="500px"/>
 </center>
 
 ### 1. Membuka nano
@@ -28,11 +28,11 @@ nano (file-name)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano2.png')} height="500px"/>
 </center>
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano3.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano3.png')} height="500px"/>
 </center>
 
 ```shell
@@ -40,12 +40,12 @@ nano (location/folder/file-name)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano4.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano4.png')} height="500px"/>
 </center>
 
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano5.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano5.png')} height="500px"/>
 </center>
 
 keterangan : location/folder/README.MD merupakan file yang lokasinya berada dalam folder/directory. 
@@ -55,11 +55,11 @@ keterangan : location/folder/README.MD merupakan file yang lokasinya berada dala
 `ctrl + X` untuk keluar dari editor. Jika melakukan perubahan maka akan dimintai konfirmasi apakah perubahan akan disimpan / tidak. Ketik **Y** untuk yes, dan **N** untuk No kemudian tekan **Enter**.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano6.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano6.png')} height="500px"/>
 </center>
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano7.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano7.png')} height="500px"/>
 </center>
 
 keterangan : jika kalian ingin mengubah nama dari file, kalian dapat mengubah nama dari yang sebelumnya **README.MD** menjadi **(nama yang kalian inginkan).
@@ -67,14 +67,14 @@ keterangan : jika kalian ingin mengubah nama dari file, kalian dapat mengubah na
 `ctrl + O` adalah untuk menyimpan perubahan file tanpa harus keluar dari **teks editor nano**. Kemudian tekan **Enter**.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano8.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano8.png')} height="500px"/>
 </center>
 
 ### 3. Search on nano
 `ctrl + W` adalah untuk mencari teks. Masukkan value ke kolom pencarian kemudian tekan **Enter**.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano9.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano9.png')} height="500px"/>
 </center>
 
 ### 4. Choose teks
@@ -101,32 +101,32 @@ keterangan : jika kalian ingin mengubah nama dari file, kalian dapat mengubah na
 `CTRL + K` : untuk melakukan cut pada text yang sudah di select
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano12.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano12.png')} height="500px"/>
 </center>
 
 `CTRL + U` : untuk melakukan paste teks yang sudah di cut
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano13.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano13.png')} height="500px"/>
 </center>
 
 ### 7. Move cursor
 `CTRL + A` : untuk pindah cursor ke awal baris
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano14.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano14.png')} height="500px"/>
 </center>
 
 `CTRL + E` : untuk pindah cursor ke akhir baris
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano15.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano15.png')} height="500px"/>
 </center>
 
 ### 8. Take Contents from another file
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano16.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano16.png')} height="500px"/>
 </center>
 
 keterangan : kalau kita lihat disini saya memilik file bernama `index.html` di dalam directory `dumbways.id`. Sekarang kita akan coba untuk mengambil isi dari file `index.html` tersebut ke dalam file `README.MD` kita.
@@ -134,11 +134,11 @@ keterangan : kalau kita lihat disini saya memilik file bernama `index.html` di d
 `CTRL + R` : untuk mengambil isi dari suatu file 
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano17.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano17.png')} height="500px"/>
 </center>
 
 keterangan : masukan lokasi yang sesuai dengan file yang isinya ingin kalian ambil
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/nano18.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/nano18.png')} height="500px"/>
 </center>

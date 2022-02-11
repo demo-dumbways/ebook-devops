@@ -29,7 +29,7 @@ git clone https://github.com/dumbwaysdev/dumbflix-frontend.git
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun5.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun5.png')} height="500px"/>
 </center>
 
 Jika sudah masuk ke directory yang sudah kalian clone, setelah itu jalankan perintah seperti dibawah ini.
@@ -42,11 +42,11 @@ cd dumbflix-frontend
 npm install
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun6.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun6.png')} height="500px"/>
 </center>
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun7.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun7.png')} height="500px"/>
 </center>
 
 Jika tahapan di atas sudah selesai maka jalankan aplikasi dengan menggunakan perintah di bawah ini.
@@ -56,17 +56,17 @@ npm start
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun8.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun8.png')} height="500px"/>
 </center>
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun10.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun10.png')} height="500px"/>
 </center>
 
 Jika tahapan di atas sudah selesai kalian jalankan maka aplikasi sekarang sudah berjalan. Step selanjutnya adalah coba kalian **buka web browser** kalian lalu masukkan **IP dari server kalian** setelah masukan port dari aplikasi, contoh : 192.168.64.6:3000 
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun9.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun9.png')} height="500px"/>
 </center>
 
 Sekarang kita akan coba untuk menjalankan aplikasi menggunakan **Localtunnel** agar mendapatkan random **url** yang bisa di akses oleh publik. Untuk menjalankan localtunnel bisa menggunakan perintah dibawah ini.
@@ -80,17 +80,17 @@ Karena aplikasi ini berjalan di **port 3000** maka dibagian **lt --port(port apl
 Jika kalian sudah menjalankan perintah sebelumnya maka nanti akan muncul sebuah url yang ada di terminal kalian. Kurang lebih seperti gambar di bawah ini
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun11.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun11.png')} height="500px"/>
 </center>
 
 Jika sudah copy saja **url** yang ada di terminal kalian. Jika sudah buka **web browser** kalian setelah itu paste url yang sudah kalian copy tadi. Nantinya kalian akan di arahkan ke bagian seperti di bawah ini.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun12.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun12.png')} height="500px"/>
 </center>
 
 Jika sudah maka langsung saja klik di bagian **Click to continue**. Maka nantinya kalian akan di arahkan ke aplikasi kalian.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tun13.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tun13.png')} height="500px"/>
 </center>

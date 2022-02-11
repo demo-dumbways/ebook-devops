@@ -211,7 +211,7 @@ Silahkan klik link dibawah untuk meng-unduh tools yang diperlukan.
 27. Jika tahapan installasi sudah selesai. Masukkan **id** beserta **password** yang sudah kalian set-up sebelumnya, Jika sudah maka kalian telah berhasil melakukan instalasi ubuntu server.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/vm28.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/vm28.png')} height="500px"/>
 </center>
 
 28. Untuk make sure apakah server yang kalian buat ini sudah terhubung ke dalam internet bisa gunakan perintah dibawah ini

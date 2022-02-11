@@ -25,7 +25,7 @@ sudo nano /etc/netplan/00-installer-config.yaml
 Jika kalian sudah menggunakan perintah di atas maka akan muncul text editor seperti gambar dibawah ini. Selanjut di bagian **addresses** kalian bisa ubah dengan IP yang kalian inginkan. Lalu untuk keluar dari teks editor ini kalian bisa menggunakan **ctrl + x** lalu **Y** setelah itu **Enter**.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/custom1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/custom1.png')} height="500px"/>
 </center>
 
 Selanjutnya untuk mengkonfirmasi customisasi **IP** yang sudah kalian buat tadi kalian bisa menggunakan perintah dibawah.
@@ -43,7 +43,7 @@ ping google.com
 Jika sudah terhubung dengan internet maka akan muncul notifikasi seperti gambar di bawah ini.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/custom2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/custom2.png')} height="500px"/>
 </center>
 
 Setelah itu kita dapat melakukan pengecekan terhadap IP yang telah diubah tersebut melalui remote server. Untuk me-remote server kalian bisa gunakan perintah seperti ini

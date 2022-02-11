@@ -29,7 +29,7 @@ sudo apt install nginx
   Lalu nanti akan muncul notifikasi **Do you want to continue? [Y/n]** kalian ketik saja **Y**. Jika sudah maka instalasi akan berjalan.
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s1.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s1.png')} height="500px"/>
   </center>
 
 ### 2. Nginx Status
@@ -38,7 +38,7 @@ sudo systemctl status nginx
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s2.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s2.png')} height="500px"/>
   </center>
 
 
@@ -50,7 +50,7 @@ sudo systemctl enable nginx
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s3.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s3.png')} height="500px"/>
   </center>
 
 
@@ -62,7 +62,7 @@ sudo systemctl start nginx
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s4.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s4.png')} height="500px"/>
   </center>
 
 
@@ -74,7 +74,7 @@ sudo systemctl restart nginx
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s5.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s5.png')} height="500px"/>
   </center>
 
 
@@ -86,7 +86,7 @@ sudo systemctl reload nginx
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s6.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s6.png')} height="500px"/>
   </center>
 
 
@@ -98,7 +98,7 @@ sudo systemctl disable nginx
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s7.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s7.png')} height="500px"/>
   </center>
 
 
@@ -110,7 +110,7 @@ sudo systemctl stop nginx
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/s8.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/s8.png')} height="500px"/>
   </center>
 
 

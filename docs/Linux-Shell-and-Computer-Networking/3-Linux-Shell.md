@@ -24,11 +24,11 @@ sudo apt update; sudo apt upgrade
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell1.png')} height="500px"/>
 </center>
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell2.png')} height="500px"/>
 </center>
 
 ### 2. mkdir 
@@ -39,7 +39,7 @@ mkdir dumbways
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell+.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell+.png')} height="500px"/>
 </center>
 
 ### 3. ls 
@@ -49,7 +49,7 @@ mkdir dumbways
 ls
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell3.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell3.png')} height="500px"/>
 </center>
 
 ### 4. ls -la 
@@ -59,7 +59,7 @@ ls
 ls -la
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell4.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell4.png')} height="500px"/>
 </center>
 
 ### 5. cd
@@ -69,7 +69,7 @@ ls -la
 cd
 ``` 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell5.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell5.png')} height="500px"/>
 </center>
 
 ### 6. cd ..
@@ -79,7 +79,7 @@ cd
 cd ..
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell6.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell6.png')} height="500px"/>
 </center>
 
 ### 7. touch
@@ -89,7 +89,7 @@ cd ..
 touch index.html
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell7.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell7.png')} height="500px"/>
 </center>
 
 ### 8. cp
@@ -99,7 +99,7 @@ touch index.html
 cp index.html index
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell8.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell8.png')} height="500px"/>
 </center>
 
 ### 9. mv
@@ -109,7 +109,7 @@ cp index.html index
 mv index index.js
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell9.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell9.png')} height="500px"/>
 </center>
 
 ```shell
@@ -120,7 +120,7 @@ mkdir studycase
 mv index.js studycase
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell10.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell10.png')} height="500px"/>
 </center>
 
 ### 10. echo 
@@ -137,7 +137,7 @@ echo "hello dumbways" >> index
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell11.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell11.png')} height="500px"/>
 </center>
 
 ### 11. cat
@@ -151,7 +151,7 @@ cat index
 cat index.js
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell12.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell12.png')} height="500px"/>
 </center>
 
 ### 12. find
@@ -166,7 +166,7 @@ find -type d -name studycase
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell13.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell13.png')} height="500px"/>
 </center>
 
 ### 13. grep 
@@ -181,7 +181,7 @@ grep -r hello
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell14.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell14.png')} height="500px"/>
 </center>
 
 ### 14. chmod
@@ -192,7 +192,7 @@ sudo chmod 777 index.html
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/chmod777.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/chmod777.png')} height="500px"/>
 </center>
 
 ### 15. chown
@@ -203,7 +203,7 @@ sudo chown root:root index.html
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell15.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell15.png')} height="500px"/>
 </center>
 
 ### 16. history
@@ -213,7 +213,7 @@ sudo chown root:root index.html
 history
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell16.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell16.png')} height="500px"/>
 </center>
 
 perintah **grep** juga bisa kita kombinasikan dengan history apabila, kita kesulitan untuk mencari riwayat perintah yang sudah kita jalankan. Kita cova implementasikan dengan mencari perintah **cat** di history kita.
@@ -223,7 +223,7 @@ history | grep cat
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell17.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell17.png')} height="500px"/>
 </center>
 
 ### 17. ping
@@ -234,7 +234,7 @@ ping google.com
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell18.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell18.png')} height="500px"/>
 </center>
 
 ### 18. wget 
@@ -245,7 +245,7 @@ wget https://wordpress.org/latest.zip
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell19.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell19.png')} height="500px"/>
 </center>
 
 ### 19. unzip
@@ -255,7 +255,7 @@ wget https://wordpress.org/latest.zip
 sudo apt install unzip
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell20.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell20.png')} height="500px"/>
 </center>
 
 Sekarang kita coba extact **file zip** yang sebelumnya sudah kita download.
@@ -264,7 +264,7 @@ Sekarang kita coba extact **file zip** yang sebelumnya sudah kita download.
 unzip latest.zip
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell21.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell21.png')} height="500px"/>
 </center>
 
 ### 20. zip
@@ -275,7 +275,7 @@ sudo apt install zip
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell22.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell22.png')} height="500px"/>
 </center>
 
 Sekarang kita coba implementasikan perintah zip untuk mengarsipkan/mengkompress directory **wordpress** yang sudah kita download sebelumnya lalu kita ubah nama untuk hasil kompressnya dengan nama **wordpress.zip**
@@ -284,13 +284,13 @@ Sekarang kita coba implementasikan perintah zip untuk mengarsipkan/mengkompress 
 zip -r wordpress.zip wordpress
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell23.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell23.png')} height="500px"/>
 </center>
 
 Hasil kompress :
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/tambahan.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/tambahan.png')} height="500px"/>
 </center>
 
 ### 21. adduser
@@ -300,7 +300,7 @@ Hasil kompress :
 sudo adduser alvin
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell24.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell24.png')} height="500px"/>
 </center>
 
 ### 22. usermod
@@ -311,7 +311,7 @@ sudo usermod -aG sudo alvin
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell25.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell25.png')} height="500px"/>
 </center>
 
 ### 23. sudo su 
@@ -321,7 +321,7 @@ sudo usermod -aG sudo alvin
 sudo su
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell26.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell26.png')} height="500px"/>
 </center>
 
 Untuk keluar dari root kalian bisa ketikan saja perintah seperti di bawah ini
@@ -335,7 +335,7 @@ exit
 sudo su alvin
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell27.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell27.png')} height="500px"/>
 </center>
 
 ### 24. rm
@@ -345,7 +345,7 @@ sudo su alvin
 rm file1
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell28.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell28.png')} height="500px"/>
 </center>
 
 **rmdir** adalah perintah untuk menghapus suatu directory. Contoh disini kita coba membuat satu directory baru lalu kita coba untuk menghapus directory yang sudah kita buat tadi.
@@ -354,7 +354,7 @@ rm file1
 rmdir devops
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell29.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell29.png')} height="500px"/>
 </center>
 
 **rm -rf** adalah suatu perintah untuk menghapus suatu directory beserta isi dari directory tersebut. Sekarang kita coba hapus directory **wordpress** yang tadi sudah kita extract sebelumnya.
@@ -364,6 +364,6 @@ rm -rf wordpress
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/shell30.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/shell30.png')} height="500px"/>
 </center>
 

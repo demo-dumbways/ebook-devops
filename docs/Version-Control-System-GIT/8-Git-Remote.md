@@ -53,7 +53,7 @@ Copy yang sudah disediakan Github, jangan lupa untuk memilih bagian **SSH** kare
 git remote add origin git@github.com:demo-dumbways/Dumbways.id.git
 ```
    <center>
-   <img alt="image1" src={useBaseUrl('img/docs/git22.png')} height="400px"/>
+   <img alt="image1" src={useBaseUrl('img/docs/git22.png')} height="500px"/>
    </center>
 
 ### 4. Check remote
@@ -63,5 +63,5 @@ Untuk melihat remote yang kita gunakan kita bisa menggunakan perintah berikut :
 git remote -v
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git23.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git23.png')} height="500px"/>
 </center>

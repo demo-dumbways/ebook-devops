@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Sekarang kita coba praktekkan :
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git=.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git=.png')} height="500px"/>
 </center>
 
 - Disini kalau kita lihat dari gambar di atas saya sedang berada di dalam branch **master**.

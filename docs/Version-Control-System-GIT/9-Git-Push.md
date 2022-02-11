@@ -13,15 +13,15 @@ git push origin master
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git24.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git24.png')} height="500px"/>
 </center>
 
 **Keterangan** 
 - origin adalah nama remote yang sudah kalian tambahkan tadi.
 - master adalah branch default yang ada di local kita.
 
-Jika kalian sudah melakukan perintah di atas, sekarang buka github kalian lalu lakukan refresh pada web.browser kalian. Maka file-file yang berada di local kalian sebelumnya sudah ter-upload ke dalam **Github**.
+Jika kalian sudah melakukan perintah di atas, sekarang buka github kalian lalu lakukan refresh pada web browser kalian. Maka file-file yang berada di local kalian sebelumnya sudah ter-upload ke dalam **Github**.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git25.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git25.png')} height="500px"/>
 </center>

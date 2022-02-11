@@ -19,7 +19,7 @@ python3 -v
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app9.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app9.png')} height="500px"/>
   </center>
 
 - Sekarang kita install package manager dari python3. Kalian dapat menggunakan perintah berikut ini.
@@ -37,7 +37,7 @@ pip install flask
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app11.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app11.png')} height="500px"/>
   </center>
 
   **PIP** adalah sebuah package management system yang biasa digunakan untuk mengatur dan menginstall **package yang berisi modul-modul Python**. PIP digunakan untuk menginstall **Flask** karena Flask ditulis dan dikembangkan dengan bahasa dan modul-modul pemrograman **Python**. Dengan menggunakan PIP, semua hal yang dibutuhkan untuk instalasi Flask akan diunduh dan dipasang dalam satu perintah.
@@ -65,15 +65,15 @@ nano index.py
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app12.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app12.png')} height="500px"/>
   </center>
   
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app13.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app13.png')} height="500px"/>
   </center>
 
-- Sekarang coba akses Web.Browser kalian setelah itu kalian coba akses dengan `localhost:5000`
+- Sekarang coba akses web browser kalian setelah itu kalian coba akses dengan `localhost:5000`
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/app14.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/app14.png')} height="500px"/>
   </center>

@@ -20,7 +20,7 @@ git init dumbways
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git9.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git9.png')} height="500px"/>
 </center>
 
 ### 2. Cara kedua
@@ -39,5 +39,5 @@ git init
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git10.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git10.png')} height="500px"/>
 </center>

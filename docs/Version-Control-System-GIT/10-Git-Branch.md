@@ -23,7 +23,7 @@ git branch (name branch)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git26.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git26.png')} height="500px"/>
 </center>
 
 keterangan : membuat branch dengan nama development
@@ -34,7 +34,7 @@ git checkout (name branch)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git27.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git27.png')} height="500px"/>
 </center>
 
 keterangan : untuk berpindah branch
@@ -45,7 +45,7 @@ git branch -m (name branch)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git28.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git28.png')} height="500px"/>
 </center>
 
 keterangan : untuk membuat branch baru serta pindah kedalam branch tersebut
@@ -56,7 +56,7 @@ git branch -a
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git29.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git29.png')} height="500px"/>
 </center>
 
 keterangan : untuk melihat list branch yang dimiliki

@@ -31,7 +31,7 @@ git add file1
 keterangan : akan melakukan stage pada `file1`
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git16.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git16.png')} height="500px"/>
   </center>
 
 ### 2. git add *.html
@@ -53,7 +53,7 @@ git add .
 keterangan : akan melakukan stage pada semua file
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git18.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git18.png')} height="500px"/>
   </center>
 
 ## Git commit  
@@ -66,7 +66,7 @@ git commit -m "pesan commit yang ingin kalian buat"
 ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/git19.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/git19.png')} height="500px"/>
   </center>
 
 

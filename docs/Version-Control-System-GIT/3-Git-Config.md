@@ -24,7 +24,7 @@ git config --global user.name "your.github-user.name"
 git config --global user.email "your.github-user.email"
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git1.png')} height="500px"/>
 </center>
 
 Jika kalian sudah menjalankan perintah di atas, kalian bisa cek **user.name** dan **user.email** kalian sudah tepat atau belum dengan menggunakan perintah dibawah ini.
@@ -33,5 +33,5 @@ Jika kalian sudah menjalankan perintah di atas, kalian bisa cek **user.name** da
 git config --list
 ```
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git2.png')} height="500px"/>
 </center>

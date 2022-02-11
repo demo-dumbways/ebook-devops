@@ -13,7 +13,7 @@ git pull origin (branch you want to pull)
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git30.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git30.png')} height="500px"/>
 </center>
 
 keterangan : menyamakan dengan branch master

@@ -33,7 +33,7 @@ sudo apt install ufw -y
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw1.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw1.png')} height="500px"/>
 </center>
 
 ### 2. ufw deny incoming
@@ -42,7 +42,7 @@ sudo ufw default deny incoming
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw2.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw2.png')} height="500px"/>
 </center>
 
 keterangan : memblokir semua akses yang masuk
@@ -53,7 +53,7 @@ sudo ufw default allow outgoing
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw3.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw3.png')} height="500px"/>
 </center>
 
 keterangan : membuka semua akses yang keluar
@@ -64,7 +64,7 @@ sudo ufw app list
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw4.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw4.png')} height="500px"/>
 </center>
 
 keterangan : untuk menampilkan aplikasi yang didukung oleh ufw pada server
@@ -75,7 +75,7 @@ sudo ufw allow "Nginx Full"
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw5.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw5.png')} height="500px"/>
 </center>
 
 keterangan : untuk mengizinkan akses dari luar ke dalam untuk aplikasi nginx
@@ -86,7 +86,7 @@ sudo ufw allow 22
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw6.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw6.png')} height="500px"/>
 </center>
 
 keterangan : untuk membuka akses port 22
@@ -102,7 +102,7 @@ sudo ufw allow 22/tcp
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw7.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw7.png')} height="500px"/>
 </center>
 
 keterangan : membuka akses untuk port 22 dengan koneksi tcp
@@ -118,7 +118,7 @@ sudo ufw allow 22/udp
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw8.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw8.png')} height="500px"/>
 </center>
 
 keterangan : membuka akses untuk port 22 dengan koneksi udp
@@ -129,7 +129,7 @@ sudo ufw deny 80
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw9.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw9.png')} height="500px"/>
 </center>
 
 keterangan : memblokir semua akses ke port 80
@@ -140,7 +140,7 @@ sudo ufw delete deny 80
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw10.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw10.png')} height="500px"/>
 </center>
 
 keterangan : menghapus konfigurasi, harus sama dengan perintah yang ingin di hapus.
@@ -157,7 +157,7 @@ sudo ufw verbose
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/ufw11.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/ufw11.png')} height="500px"/>
 </center>
 
 keterangan : untuk melihat koneksi apa saja yang ada

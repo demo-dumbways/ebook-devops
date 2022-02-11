@@ -35,7 +35,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web5.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web5.png')} height="500px"/>
   </center>
 
   ```shell
@@ -43,7 +43,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web6.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web6.png')}  height="500px"/>
   </center>
 
 - Setelah itu masuk ke **directory** yang sudah kalian buat, setelah itu buat suatu file dengan nama `my.reverse-proxy.conf`
@@ -58,7 +58,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
 
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web7.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web7.png')}  height="500px"/>
   </center>
 
 - Setelah itu masukkan konfigurasi berikut:
@@ -78,7 +78,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   :::
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web8.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web8.png')}   height="500px"/>
   </center>
 
 - Jika sudah simpan konfigurasi yang sudah kalian buat tadi.
@@ -89,7 +89,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web9.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web9.png')}   height="500px"/>
   </center>
 
   ```shell
@@ -97,14 +97,14 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web10.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web10.png')}   height="500px"/>
   </center>
 
 
 - Selanjutnya pergi ke-bagian **include**, setelah itu masukan lokasi dari directory yang bersi konfigutasi yang sudah kalian buat tadi.
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web11.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web11.png')}   height="500px"/>
   </center>
 
   :::info
@@ -118,7 +118,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web12.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web12.png')}   height="500px"/>
   </center>
 
 - Jika sudah sekarang kita tinggal melakukan `restart/reload` Nginx kita.
@@ -128,7 +128,7 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web13.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web13.png')}   height="500px"/>
   </center>
 
 - Sekarang kita akan membuat sebuah virtual host. Untuk membuat virtual host kita harus masuk ke local server kita setelah itu masuk ke dalam file `/etc/hosts`.
@@ -138,34 +138,34 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web14.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web14.png')}   height="500px"/>
   </center>
 
 - Setelah itu masukkan IP server kita selanjutnya masukkan nama domain yang kalian inginkan.
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web15.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web15.png')}   height="500px"/>
   </center>
 
-- Jika sudah sekarang coba buka web.browser kalian setelah itu coba akses nama domain kalian.
+- Jika sudah sekarang coba buka web browser kalian setelah itu coba akses nama domain kalian.
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web16.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web16.png')}   height="500px"/>
   </center>
 
-- Jika kita lihat disini adalah kita mendapatkan **502 Bad Gateway** kenapa?, karena kita belum menjalankan aplikasi kita. Sekarang kita coba untuk menjalankan aplikasi sederhana kita di hari lalu.
+- Jika kita lihat disini adalah kita mendapatkan **502 Bad Gateway** kenapa? karena kita belum menjalankan aplikasi kita. Sekarang kita coba untuk menjalankan aplikasi sederhana kita di hari lalu.
 
   ```shell
   node index.js
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web17.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web17.png')}  height="500px" />
   </center>
 
-- Selanjutnya kita coba untuk me-refresh web.browser kita.
+- Selanjutnya kita coba untuk me-refresh web browser kita.
 - Sekarang bisa kita lihat bahwa aplikasi kita sudah berjalan, dan dapat di akses oleh domain virtual yang kita buat.
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web18.png')} height="400px"/>
+  <img alt="image1" src={useBaseUrl('img/docs/web18.png')}  height="500px" />
   </center>

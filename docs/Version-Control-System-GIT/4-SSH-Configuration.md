@@ -16,7 +16,7 @@ ssh-keygen
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git3.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git3.png')} height="500px"/>
 </center>
 
 ### 2. SSH key Location
@@ -27,7 +27,7 @@ cat .ssh/id_rsa.pub
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git4.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git4.png')} height="500px"/>
 </center>
 
 ### 3. Add new SSH to github settings
@@ -36,18 +36,18 @@ Tahap selanjutnya setelah kalian melakukan copy **SSH-key** adalah memasukkannya
 Jika sudah langsung tekan saja di bagian **New SSH key**.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git5.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git5.png')} height="500px"/>
 </center>
 
 
 Setelah itu masukkan saja **SSH key** yang sudah kalian copy tadi kebagian **key**. Jika sudah Langsung saja save dengan menge-klik bagian **Add SSH key**.
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git6.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git6.png')} height="500px"/>
 </center>
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git7.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git7.png')} height="500px"/>
 </center>
 
 ### 4. Check Connection
@@ -60,7 +60,7 @@ ssh -T git@github.com
 ```
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/git8.png')} height="400px"/>
+<img alt="image1" src={useBaseUrl('img/docs/git8.png')} height="500px"/>
 </center>
 
 Jika muncul teks seperti ini `Hi demo-dumbways! You've successfully authenticated, but GitHub does not provide shell access.` maka kalian sudah berhasil mengkoneksikan local kalian dengan Github.
