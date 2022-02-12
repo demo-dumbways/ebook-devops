@@ -15,7 +15,7 @@ Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan
 Setelah mempelajari terkait cara menjalankan aplikasi NodeJS, Python, dan Go, maka silakan deploy aplikasi dengan ketentuan sebagai berikut:
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/task.png')} />
+<img alt="image1" src={useBaseUrl('img/docs/task2.png')} />
 </center>
 
 ### Ketentuan
@@ -31,6 +31,7 @@ Setelah mempelajari terkait cara menjalankan aplikasi NodeJS, Python, dan Go, ma
 
 Referensi:
 - [Medium](/Getting-Started/Medium/Medium-Registrasi)
+- [PM2](https://www.npmjs.com/package/pm2)
 
 ## 4.3 Project Management
 Tambahkan deskripsi berikut ke dalam kanban pada project management Anda

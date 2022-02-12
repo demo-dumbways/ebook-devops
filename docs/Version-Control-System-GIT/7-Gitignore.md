@@ -6,7 +6,13 @@ sidebar_position: 7
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## Apa itu .gitignore?
 **.gitignore** adalah sebuah file yang berisi daftar nama-nama file dan direktori yang akan **diabaikan/diasingkan** oleh git. Perubahan apapun yang kita lakukan terhadap file dan direktori yang sudah masuk ke dalam daftar **.gitignore** tidak akan dicatat oleh git.
+
+## Kenapa Perlu .gitignore?
+Karena pada kenyataannya di sebagian proyek terdapat file yang dihasilkan saat menjalankan / perlu menginstal beberapa komponen tambahan agar aplikasi dapat berjalan dan biasanya file tidak ada gunanya karena dapat di unduh ulang. 
+
+Kita ambil contoh saja dalam proyek `node.js` ada folder bernama `node_modules` yang berisi semua paket external yang perlu dijalankan oleh kode kalian. Kalian dapat menghapus file `node_modules` ini dan dapat membangunnya kembali dengan menjalankan perintah `npm install`.
 
 Berikut adalah cara pembuatan **.gitignore**:
 

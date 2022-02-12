@@ -153,19 +153,46 @@ Untuk membuat reverse proxy dapat mengikuti langkah-langkah berikut :
   <img alt="image1" src={useBaseUrl('img/docs/web16.png')}   height="500px"/>
   </center>
 
-- Jika kita lihat disini adalah kita mendapatkan **502 Bad Gateway** kenapa? karena kita belum menjalankan aplikasi kita. Sekarang kita coba untuk menjalankan aplikasi sederhana kita di hari lalu.
+- Jika kita lihat disini adalah kita mendapatkan **502 Bad Gateway** kenapa? karena kita belum menjalankan aplikasi kita. Sekarang kita coba untuk menjalankan aplikasi **dumbflix** yang sudah pernah kita pakai sebelumnya. Untuk menjalankan aplikasi `dumbflix` kalian dapat mengikuti langkah-langkah berikut ini.
 
   ```shell
-  node index.js
+  git clone https://github.com/dumbwaysdev/dumbflix-frontend.git
   ```
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web17.png')}  height="500px" />
+  <img alt="image1" src={useBaseUrl('img/docs/r1.png')} height="500px"/>
   </center>
+
+  ```shell
+  cd dumbflix-frontend
+  ```
+
+  ```shell
+  npm install
+  ```
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/r2.png')} height="500px"/>
+  </center>
+
+  keterangan : perintah di atas ini bertujuan untuk meng-install module dari aplikasi `node.js`
+
+  ```shell
+  npm start
+  ```
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/r3.png')} height="500px"/>
+  </center>
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/r4.png')} height="500px"/>
+  </center>
+
+  keterangan : perintah di atas ini untuk menjalankan aplikasi
 
 - Selanjutnya kita coba untuk me-refresh web browser kita.
 - Sekarang bisa kita lihat bahwa aplikasi kita sudah berjalan, dan dapat di akses oleh domain virtual yang kita buat.
 
   <center>
-  <img alt="image1" src={useBaseUrl('img/docs/web18.png')}  height="500px" />
+  <img alt="image1" src={useBaseUrl('img/docs/r5.png')} height="500px"/>
   </center>

@@ -15,7 +15,7 @@ Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan
 Setelah mempelajari bagaimana cara menginstall git, mengkonfigurasi serta menggunakan git, maka silakan buat sebuah repository dengan ketentuan sebagai berikut:
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/task.png')} />
+<img alt="image1" src={useBaseUrl('img/docs/task3.png')} />
 </center>
 
 ## Ketentuan

@@ -15,7 +15,7 @@ Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan
 Setelah mempelajari terkait text editor, text manipulation, monitoring, service management hingga network firewall, maka silakan buat dokumentasi dengan ketentuan sebagai berikut:
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/task.png')} />
+<img alt="image1" src={useBaseUrl('img/docs/ufw9.png')} />
 </center>
 
 ### Ketentuan

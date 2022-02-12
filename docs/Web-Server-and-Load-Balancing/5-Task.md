@@ -15,7 +15,7 @@ Pastikan untuk melakukan screenshot step by step yang dilakukan, untuk digunakan
 Setelah mempelajari terkait web server, reverse proxy dan load balancing maka buatlah konfigurasi dengan ketentuan sebagai berikut:
 
 <center>
-<img alt="image1" src={useBaseUrl('img/docs/task.png')} />
+<img alt="image1" src={useBaseUrl('img/docs//++.png')} />
 </center>
 
 ### Ketentuan

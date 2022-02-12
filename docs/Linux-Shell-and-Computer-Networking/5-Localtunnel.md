@@ -22,75 +22,97 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 5.3 Bagaimana Menggunakan Localtunnel?
 
-Kita akan mencoba untuk melakukan konfigurasi localtunnel agar server kita dapat di akses secara publik. Berikut adalah step by step cara menggunakannya:
+Kita akan mencoba untuk menjalankan localtunnel agar server local kita dapat di akses secara publik. Berikut adalah step by step cara menggunakannya:
 
-```shell
-git clone https://github.com/dumbwaysdev/dumbflix-frontend.git
-```
+- Pertama-tama yang kita lakukan adalah instalalsi `node.js` menggunakan `nvm` untuk melakukan instalasi kalian dapat mengikuti langkah-langkah dibawah ini.
+  
+  ```shell
+  sudo apt install curl
+  ```
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tun1.png')} height="400px"/>
+  </center>
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun5.png')} height="500px"/>
-</center>
+  ```shell
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  ```
 
-Jika sudah masuk ke directory yang sudah kalian clone, setelah itu jalankan perintah seperti dibawah ini.
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tun2.png')} height="400px"/>
+  </center>
 
-```shell
-cd dumbflix-frontend
-```
+  ```shell
+  exec bash
+  ```
 
-```shell
-npm install
-```
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun6.png')} height="500px"/>
-</center>
+  ```shell
+  nvm install 14
+  ```
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun7.png')} height="500px"/>
-</center>
+  ```shell
+  node -v
+  ```
 
-Jika tahapan di atas sudah selesai maka jalankan aplikasi dengan menggunakan perintah di bawah ini.
+  ```shell
+  npm -v
+  ```
 
-```shell
-npm start
-```
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tun3.png')} height="400px"/>
+  </center>
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun8.png')} height="500px"/>
-</center>
+- Selanjutnya kita akan melakukan instalasi `localtunnel` menggunakan `npm` yang sudah kita install.
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun10.png')} height="500px"/>
-</center>
+  ```shell
+  npm install -g localtunnel
+  ```
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tun4.png')} height="400px"/>
+  </center>
 
-Jika tahapan di atas sudah selesai kalian jalankan maka aplikasi sekarang sudah berjalan. Step selanjutnya adalah coba kalian **buka web browser** kalian lalu masukkan **IP dari server kalian** setelah masukan port dari aplikasi, contoh : 192.168.64.6:3000 
+- Sekarang kita akan melakukan instalasi `Nginx` yang sama seperti pertemuan sebelumnya.
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun9.png')} height="500px"/>
-</center>
+  ```shell
+  sudo apt install nginx
+  ```
 
-Sekarang kita akan coba untuk menjalankan aplikasi menggunakan **Localtunnel** agar mendapatkan random **url** yang bisa di akses oleh publik. Untuk menjalankan localtunnel bisa menggunakan perintah dibawah ini.
+    Lalu nanti akan muncul notifikasi **Do you want to continue? [Y/n]** kalian ketik saja **Y**. Jika sudah maka instalasi akan berjalan.
 
-```shell
-lt --port 3000
-```
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/s1.png')} height="400px"/>
+  </center>
 
-Karena aplikasi ini berjalan di **port 3000** maka dibagian **lt --port(port aplikasi)**, masukkan sesuai dengan aplikasi kalian.
+- Jika instalasi kalian telah selesai melakukan instalasi `Nginx`, Selanjutnya kita coba untuk mengakses nginx di web browser kita untuk mengecek apakah `Nginx` kita sudah berjalan atau belum.
 
-Jika kalian sudah menjalankan perintah sebelumnya maka nanti akan muncul sebuah url yang ada di terminal kalian. Kurang lebih seperti gambar di bawah ini
+- Coba kalian akses di web browser kalian, lalu masukkan IP dari server kalian.
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun11.png')} height="500px"/>
-</center>
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tune1.png')} height="400px"/>
+  </center>
 
-Jika sudah copy saja **url** yang ada di terminal kalian. Jika sudah buka **web browser** kalian setelah itu paste url yang sudah kalian copy tadi. Nantinya kalian akan di arahkan ke bagian seperti di bawah ini.
+- Sekarang kita coba untuk menggunakan localtunel untuk aplikasi `Nginx` yang sudah kita install.
+- Untuk menjalankan localtunel kalian dapat mengikuti perintah di bawah ini.
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun12.png')} height="500px"/>
-</center>
+  ```shell
+  lt --port 80
+  ```
 
-Jika sudah maka langsung saja klik di bagian **Click to continue**. Maka nantinya kalian akan di arahkan ke aplikasi kalian.
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tune2.png')} height="400px"/>
+  </center>
 
-<center>
-<img alt="image1" src={useBaseUrl('img/docs/tun13.png')} height="500px"/>
-</center>
+  keterangan : pastikan dibagian port telah sesuai dengan aplikasi kalian. Karena setiap aplikasi pasti mempunyai port yang berbeda-beda, kita ambil contoh saja dari aplikasi `node.js`, aplikasi node.js biasanya berjalan di atas port 3000.
+
+- Jika sudah copy url yang ada di terminal kalian.
+- Setelah itu coba kalian akses menggunakan Web.browser kalian.
+  
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tune3.png')} height="400px"/>
+  </center>
+
+- Jika sudah klik tombol `Click to Continue`.
+- Selanjutnya kalian akan di arahkan ke aplikasi kalian. Dan aplikasi kalian sekarang sudah dapat di akses oleh public.
+
+  <center>
+  <img alt="image1" src={useBaseUrl('img/docs/tune4.png')} height="400px"/>
+  </center>
