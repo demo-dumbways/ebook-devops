@@ -30,7 +30,7 @@ Setelah mempelajari terkait web server, reverse proxy dan load balancing maka bu
 3. Setelah menyelesaikan tugas, silakan publish artikel yang sudah dibuat.
 
 Referensi:
-- [Medium](/Getting-Started/Medium/Medium-Registrasi)
+- [Medium](/Getting-Started/Medium/Medium)
 
 ## 5.3 Project Management
 Tambahkan deskripsi berikut ke dalam kanban pada project management Anda

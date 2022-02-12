@@ -30,7 +30,7 @@ Setelah mempelajari terkait cara menjalankan aplikasi NodeJS, Python, dan Go, ma
 3. Setelah menyelesaikan tugas, silakan publish artikel yang sudah dibuat.
 
 Referensi:
-- [Medium](/Getting-Started/Medium/Medium-Registrasi)
+- [Medium](/Getting-Started/Medium/Medium)
 - [PM2](https://www.npmjs.com/package/pm2)
 
 ## 4.3 Project Management

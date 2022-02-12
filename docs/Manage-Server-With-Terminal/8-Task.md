@@ -28,7 +28,7 @@ Setelah mempelajari terkait text editor, text manipulation, monitoring, service 
 3. Setelah menyelesaikan tugas, silakan publish artikel yang sudah dibuat.
 
 Referensi:
-- [Medium](/Getting-Started/Medium/Medium-Registrasi)
+- [Medium](/Getting-Started/Medium/Medium)
 
 ## 8.3 Project Management
 Tambahkan deskripsi berikut ke dalam kanban pada project management Anda
