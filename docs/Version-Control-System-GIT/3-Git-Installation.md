@@ -10,10 +10,12 @@ Jika kamu menggunakan operating system **Linux-Ubuntu/Mac-OS** kamu bisa skip in
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Pertama kali kita perlu menginstall `GIT` pada laptop/komputer.
+Tahap pertama kita perlu menginstall `GIT` pada laptop/komputer.
 
-Untuk kalian yang masih menggunakan operating system **Windows** kalian bisa install git terlebih dahulu melalui link dibawah ini.
+:::caution
+Catatan : Bagi yang menggunakan operating system **Windows** kalian dapat mendowload dan menginstall install git terlebih dahulu melalui link dibawah ini.
+:::
 
 **LINK GIT : [Download](https://git-scm.com/downloads)**
 
-   <img alt="image1" src={useBaseUrl('img/docs/image-32.png')} height="350px"/>
+<img alt="image1" src={useBaseUrl('img/docs/image-32.png')} height="350px"/>

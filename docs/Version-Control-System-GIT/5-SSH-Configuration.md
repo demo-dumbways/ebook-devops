@@ -6,10 +6,11 @@ sidebar_position: 5
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-**SSH key** berguna untuk mengkoneksikan local anda dengan platform github. Lalu mungkin kalian bertanya bagaimana cara untuk mendapatkan **SSH key**, serta bagaimana cara untuk mengkoneksikan local kita dengan platform github. Untuk cara ikuti step by step di bawah ini.
+**SSH key** berguna untuk mengintegrasikan antara repository local anda dengan platform github. Lalu mungkin kalian bertanya bagaimana cara untuk mendapatkan **SSH key**, serta bagaimana cara untuk mengintegrasikan nya.
 
-### 1. Generate SSH key
-Untuk mendapatkan **SSH key** kalian dapat menggunakan perintah dibawah ini. 
+### 5.1 Generate SSH key
+
+Untuk mendapatkan **SSH key** kalian dapat menggunakan perintah dibawah ini.
 
 ```shell
 ssh-keygen
@@ -19,7 +20,8 @@ ssh-keygen
 <img alt="image1" src={useBaseUrl('img/docs/git3.png')} height="500px"/>
 </center>
 
-### 2. SSH key Location
+### 5.2 SSH key Location
+
 Jika kalian sudah menjalankan perintah sebelumnya maka kalian sudah berhasil untuk men-generate **SSH key** yang akan kalian gunakannya. Untuk lokasi **SSH key** yang sudah kalian generate tadi berada di `.ssh/id_rsa.pub`. Jika sudah lakukan copy pada **SSH-key** tersebut.
 
 ```shell
@@ -30,7 +32,8 @@ cat .ssh/id_rsa.pub
 <img alt="image1" src={useBaseUrl('img/docs/git4.png')} height="500px"/>
 </center>
 
-### 3. Add new SSH to github settings
+### 5.3 Add new SSH to github settings
+
 Tahap selanjutnya setelah kalian melakukan copy **SSH-key** adalah memasukkannya kedalam config github dengan membuka https://github.com/settings/keys.
 
 Jika sudah langsung tekan saja di bagian **New SSH key**.
@@ -38,7 +41,6 @@ Jika sudah langsung tekan saja di bagian **New SSH key**.
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/git5.png')} height="500px"/>
 </center>
-
 
 Setelah itu masukkan saja **SSH key** yang sudah kalian copy tadi kebagian **key**. Jika sudah Langsung saja save dengan menge-klik bagian **Add SSH key**.
 
@@ -50,7 +52,8 @@ Setelah itu masukkan saja **SSH key** yang sudah kalian copy tadi kebagian **key
 <img alt="image1" src={useBaseUrl('img/docs/git7.png')} height="500px"/>
 </center>
 
-### 4. Check Connection
+### 5.4 Check Connection
+
 Jika kalian sudah melakukan semua step di atas maka kalian sudah berhasil meng-koneksikan local kalian dengan Github.
 
 Untuk make sure apakah sudah terkoneksi kita bisa menggunakan perintah di bawah ini.

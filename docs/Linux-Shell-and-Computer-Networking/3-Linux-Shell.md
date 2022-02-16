@@ -3,18 +3,21 @@ sidebar_position: 3
 ---
 
 # 3. Linux Shell
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 3.1 Apa itu Shell Linux?
-**Shell Linux** merupakan program berbasis unix atau linux yang menghubungkan antara users dengan sistem operasi. **Shell script** yang biasa digunakan pada linux adalah **BASH (Bourne-Again-Shell).
 
-## 3.2 Kenapa Harus Linux Shell?
+**Shell Linux** merupakan program berbasis unix atau linux yang menghubungkan antara users dengan sistem operasi. **Shell script** yang biasa digunakan pada linux adalah \*\*BASH (Bourne-Again-Shell).
 
-Pada sistem operasi server berbasis unix/linux memiliki tampailan berbasis text, tidak seperti sistem operasi windows yang memiliki interface yang dapat di klik-klik. Sehingga memerlukan keahlian khusus untuk memanajemen server-server linux.
+## 3.2 Mengapa Harus Memahami Linux Shell?
+
+Pada sistem operasi server berbasis unix/linux memiliki tampailan berbasis text, tidak seperti sistem operasi windows yang memiliki interface yang dapat di klik-klik. Sehingga memerlukan keahlian khusus untuk memanajemen server-server linux dengan menggunakan Shell.
 
 ## 3.3 Perintah Dasar Linux:
 
-### 1. sudo 
+### 1. sudo
+
 **sudo** adalah suatu perintah untuk memungkin kalian untuk menjalankan program sebagai pengguna lain.
 
 Contoh penggunaanya adalah **sudo apt update; sudo apt upgrade** berfungsi untuk meng-update serta meng-upgrade sistem kita agar tetap up to date.
@@ -31,7 +34,8 @@ sudo apt update; sudo apt upgrade
 <img alt="image1" src={useBaseUrl('img/docs/shell2.png')} height="500px"/>
 </center>
 
-### 2. mkdir 
+### 2. mkdir
+
 **mkdir** adalah perintah untuk membuat suatu directory. Sebagai contoh coba kalian buat directory dengan nama **dumbways** seperti contoh dibawah ini.
 
 ```shell
@@ -42,72 +46,86 @@ mkdir dumbways
 <img alt="image1" src={useBaseUrl('img/docs/shell+.png')} height="500px"/>
 </center>
 
-### 3. ls 
+### 3. ls
+
 **ls** adalah perintah untuk melihat list apa saja yang ada di directory.
 
 ```shell
 ls
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell3.png')} height="500px"/>
 </center>
 
-### 4. ls -la 
+### 4. ls -la
+
 **ls -la** adalah perintah untuk melihat semua list file dan directory yang ada serta menampilkan semua file maupun directory yang tersembunyi.
 
 ```shell
 ls -la
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell4.png')} height="500px"/>
 </center>
 
 ### 5. cd
+
 **cd** adalah perintah untuk masuk ke dalam directory.
 
 ```shell
 cd
-``` 
+```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell5.png')} height="500px"/>
 </center>
 
 ### 6. cd ..
+
 **cd ..** adalah perintah untuk keluar dari directory.
 
 ```shell
 cd ..
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell6.png')} height="500px"/>
 </center>
 
 ### 7. touch
+
 **touch** adalah perintah untuk membuat suatu file. Sebagai contoh coba kalian buat suatu file dengan nama **index.html**.
 
 ```shell
 touch index.html
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell7.png')} height="500px"/>
 </center>
 
 ### 8. cp
+
 **cp** adalah perintah untuk meng-copy file serta mengubahnya dengan nama yang kalian inginkan. sebagai contoh coba kalian copy file **index.html** yang sudah kalian buat tadi lalu ubah dengan nama file **index**.
 
 ```shell
 cp index.html index
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell8.png')} height="500px"/>
 </center>
 
 ### 9. mv
+
 **mv** adalah sebuah perintah untuk me-rename nama file, tetapi juga dapat digunakan untuk memindahkan suatu file ke directory tertentu. Sebagai contoh coba kalian ubah nama file **index** tadi dengan nama **index.js** lalu buat sebuah directory baru lalu pindahkan file **index.js** tadi ke directory yang sudah kalian buat.
 
 ```shell
 mv index index.js
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell9.png')} height="500px"/>
 </center>
@@ -119,11 +137,13 @@ mkdir studycase
 ```shell
 mv index.js studycase
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell10.png')} height="500px"/>
 </center>
 
-### 10. echo 
+### 10. echo
+
 **echo** adalah suatu perintah untuk menampilkan suatu string atau menyisipkan teks ke dalam file. Sebagai contoh coba kalian buatlah teks **hello dumbways** lalu sisipkan teks tersebut ke dalam file index.js.
 
 ```shell
@@ -141,6 +161,7 @@ echo "hello dumbways" >> index
 </center>
 
 ### 11. cat
+
 **cat** adalah suatu perintah untuk melihat isi dari suatu file. Sekarang coba implementasikan perintah **cat** untuk melihat isi dari suatu file yang sudah kalian buat sebelumnya.
 
 ```shell
@@ -150,11 +171,13 @@ cat index
 ```shell
 cat index.js
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell12.png')} height="500px"/>
 </center>
 
 ### 12. find
+
 **find -type** adalah perintah untuk mencari suatu **file** maupun **directory**. Contoh disini kita akan mencari file index.js dan directory studycase yang sudah kita buat(**f** mengartikan file, sedangkan **d** adalah directory ).
 
 ```shell
@@ -169,7 +192,8 @@ find -type d -name studycase
 <img alt="image1" src={useBaseUrl('img/docs/shell13.png')} height="500px"/>
 </center>
 
-### 13. grep 
+### 13. grep
+
 **grep** adalah suatu perintah untuk mencari teks di seluruh file. Sekarang kita coba untuk mencari teks yang sudah kita buat sebelumnya, kita juga akan mencoba mencari teks tetapi kita tidak tahu dimana lokasi file itu berada.
 
 ```shell
@@ -185,6 +209,7 @@ grep -r hello
 </center>
 
 ### 14. chmod
+
 **chmod 777** adalah perintah untuk mengganti permission file maupun directory. Sekarang kita coba untuk mengganti permission untuk file **index.html** yang sudah kita buat sebelumnya.
 
 ```shell
@@ -196,6 +221,7 @@ sudo chmod 777 index.html
 </center>
 
 ### 15. chown
+
 **chown** adalah perintah untuk mengganti kepemilikan sebuah directory maupun file. Kita coba ganti kepemilikan file **index.html** tadi, dari yang sebelumnya adalah **user** kita sekarang kita ganti kepemilikannya menjadi **root**.
 
 ```shell
@@ -207,11 +233,13 @@ sudo chown root:root index.html
 </center>
 
 ### 16. history
-**history** adalah perintah untuk melihat riwayat perintah yang sudah kita gunakan sebelumnya. 
+
+**history** adalah perintah untuk melihat riwayat perintah yang sudah kita gunakan sebelumnya.
 
 ```shell
 history
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell16.png')} height="500px"/>
 </center>
@@ -227,6 +255,7 @@ history | grep cat
 </center>
 
 ### 17. ping
+
 **ping** adalah perintah untuk memeriksa koneksi internet.
 
 ```shell
@@ -237,7 +266,8 @@ ping google.com
 <img alt="image1" src={useBaseUrl('img/docs/shell18.png')} height="500px"/>
 </center>
 
-### 18. wget 
+### 18. wget
+
 **wget** adalah perintah untuk mendownload suatu file. Sekarang akan kita coba implementasikan perintah **wget** dengan mendownload file Wordpress, kalian bisa menggunakan url berikut: https://wordpress.org/latest.zip
 
 ```shell
@@ -249,11 +279,13 @@ wget https://wordpress.org/latest.zip
 </center>
 
 ### 19. unzip
+
 **unzip** adalah perintah untuk **meng-extract zip file**. Untuk installasi unzip bisa menggunakan perintah dibawah ini.
 
 ```shell
 sudo apt install unzip
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell20.png')} height="500px"/>
 </center>
@@ -263,11 +295,13 @@ Sekarang kita coba extact **file zip** yang sebelumnya sudah kita download.
 ```shell
 unzip latest.zip
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell21.png')} height="500px"/>
 </center>
 
 ### 20. zip
+
 **zip** adalah perintah untuk mengarsipkan/mengkompress suatu file atau directory. Untuk installasi zip bisa menggunakan perintah dibawah ini.
 
 ```shell
@@ -283,6 +317,7 @@ Sekarang kita coba implementasikan perintah zip untuk mengarsipkan/mengkompress 
 ```shell
 zip -r wordpress.zip wordpress
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell23.png')} height="500px"/>
 </center>
@@ -294,16 +329,19 @@ Hasil kompress :
 </center>
 
 ### 21. adduser
+
 **adduser** adalah suatu perintah untuk membuat user baru untuk sistem.
 
 ```shell
 sudo adduser alvin
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell24.png')} height="500px"/>
 </center>
 
 ### 22. usermod
+
 **usermod** adalah perintah untuk menambahkan **grup sudo** untuk **user** yang sudah kita buat, agar user dapat menggunakan perintah **sudo**.
 
 ```shell
@@ -314,12 +352,14 @@ sudo usermod -aG sudo alvin
 <img alt="image1" src={useBaseUrl('img/docs/shell25.png')} height="500px"/>
 </center>
 
-### 23. sudo su 
+### 23. sudo su
+
 **sudo su** adalah perintah agar dapat masuk kedalam sistem root.
 
 ```shell
 sudo su
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell26.png')} height="500px"/>
 </center>
@@ -329,21 +369,25 @@ Untuk keluar dari root kalian bisa ketikan saja perintah seperti di bawah ini
 ```shell
 exit
 ```
+
 **sudo su** juga dapat digunakan untuk berpindah ke lain user. Contoh seperti di bawah ini kita masuk ke dalam user yang sudah kita buat sebelumya.
 
-```shell 
+```shell
 sudo su alvin
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell27.png')} height="500px"/>
 </center>
 
 ### 24. rm
-**rm** adalah perintah untuk menghapus suatu file. Contoh disini coba buat satu buah file baru setelah itu kita akan menghapus file tersebut. 
+
+**rm** adalah perintah untuk menghapus suatu file. Contoh disini coba buat satu buah file baru setelah itu kita akan menghapus file tersebut.
 
 ```shell
 rm file1
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell28.png')} height="500px"/>
 </center>
@@ -353,6 +397,7 @@ rm file1
 ```shell
 rmdir devops
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell29.png')} height="500px"/>
 </center>
@@ -366,4 +411,3 @@ rm -rf wordpress
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/shell30.png')} height="500px"/>
 </center>
-

@@ -4,6 +4,8 @@ sidebar_position: 2
 
 ### 2. Go
 
+**Go** adalah bahasa pemrograman yang dibuat di Google pada tahun 2009 oleh Robert Griesemer, Rob Pike, dan Ken Thompson. bahasa pemrograman sumber terbuka yang mudah, sederhana, efisien. Selain itu, Go memiliki level yang sama dengan Java.
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Pertama-tama sama seperti sebelumnya, kita harus mendownload engine-nya terlebih dahulu.
@@ -24,24 +26,26 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   <img alt="image1" src={useBaseUrl('img/docs/app16.png')} height="500px"/>
   </center>
 
--  Selanjutnya masukkan path go pada `.bashrc`
-  ```shell
-  sudo nano .bashrc
-  ```
+- Selanjutnya masukkan path go pada `.bashrc`
+
+```shell
+sudo nano .bashrc
+```
 
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/app17.png')} height="500px"/>
   </center>
 
-  ```shell
-  export PATH=$PATH:/usr/local/go/bin
-  ```
+```shell
+export PATH=$PATH:/usr/local/go/bin
+```
 
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/app18.png')} height="500px"/>
   </center>
 
 - Jika sudah sekarang dapat verifikasi go dengan cara berikut.
+
   ```shell
   go version
   ```
@@ -73,8 +77,8 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   <img alt="image1" src={useBaseUrl('img/docs/app20.png')} height="500px"/>
   </center>
 
-
 - Sekarang jalankan aplikasi go dengan menggunakan perintah berikut.
+
   ```shell
   go run index.go
   ```
@@ -94,6 +98,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   </center>
 
 - Jika sudah jalankan aplikasi dengan menggunakan perintah berikut.
+
   ```shell
   ./index
   ```
@@ -101,6 +106,3 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/app23.png')} height="500px"/>
   </center>
-
-
-   

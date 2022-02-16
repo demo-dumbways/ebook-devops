@@ -8,10 +8,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Pada dasarnya kita bisa melakukan manipulasi pada **sebuah file** menggunakan terminal, tanpa menggunakan teks editor seperti **nano**.
 
-## Text Manipulation Command
+## 4.1 Text Manipulation Command
+
 Berikut adalah contoh beberapa perintah yang dapat digunakan :
 
 ### 1. cat
+
 `Cat` adalah salah satu perintah yang berfungsi untuk membuat daftar konten atau isi file pada standard output (sdout). Yang kalian tahu pasti perintah `cat` hanya bisa untuk melihat isi dari suatu file, sebenarnya tidak hanya itu.
 
 Contoh penggunaan :
@@ -47,7 +49,8 @@ cat file1 file2 > file3
 keterangan : untuk menggabungkan dua buah file, dan menyimpannya ke dalam file3
 
 ### 2. sed
-`Sed` adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar pada file. Dengan sed kita dapat mengganti teks dengan cepat. 
+
+`Sed` adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar pada file. Dengan sed kita dapat mengganti teks dengan cepat.
 
 Contoh penggunaan :
 
@@ -59,10 +62,11 @@ sed -i 's/Hello/Holla/g' file3
 <img alt="image1" src={useBaseUrl('img/docs/teks4.png')} height="500px"/>
 </center>
 
-keterangan : mengganti semua kata **Hello** menjadi **Holla** pada file3 
+keterangan : mengganti semua kata **Hello** menjadi **Holla** pada file3
 
 ### 3. grep
-Grep merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file yang telah dibuat. 
+
+Grep merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file yang telah dibuat.
 
 Contoh penggunaan :
 
@@ -97,7 +101,8 @@ grep Dumbways *
 keterangan : akan mencari semua file yang berisikan kata **Dumbways**
 
 ### 4. sort
-`Sort` untuk mengurutkan data, baik itu secara ascending atau descending. 
+
+`Sort` untuk mengurutkan data, baik itu secara ascending atau descending.
 
 Berikut adalah contoh penggunaan :
 
@@ -122,7 +127,8 @@ sort -r file4
 keterangan : untuk mengurutkan berdasarkan descending
 
 ### 5. echo
-`Echo` digunakan untuk mencetak string / pesan dari hasil perintah lain. 
+
+`Echo` digunakan untuk mencetak string / pesan dari hasil perintah lain.
 
 Berikut adalah contoh penggunaan
 
@@ -134,7 +140,7 @@ echo "Hello Dumbways!"
 <img alt="image1" src={useBaseUrl('img/docs/teks10.png')} height="500px"/>
 </center>
 
-keterangan : untuk mencetak string **
+keterangan : untuk mencetak string \*\*
 
 ```shell
 echo "Hello Dumbways!" >> file3
@@ -149,9 +155,9 @@ keterangan : untuk mencetak kata **Hello Dumbways!** di file3
 ```shell
 echo "Replace semua data" > file5
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/teks12.png')} height="500px"/>
 </center>
 
 keterangan : untuk mereplace semua data di file5 dan menggantinya dengan **"Replace semua data"**
-

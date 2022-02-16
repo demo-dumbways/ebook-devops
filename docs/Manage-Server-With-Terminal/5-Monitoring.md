@@ -16,11 +16,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - ps
 
 ## 5.2 Kenapa perlu Monitoring ?
+
 - Untuk mengetahui apakah ada server down atau tidak.
 - Untuk mengetahui resource dari server tersebut apakah penuh atau tidak.
 - Untuk mengetahui tentang aplikasi yang berada di server kita itu jalan atau tidak, ataupun sudah up to date atau belum.
 
 ### htop
+
 **htop** merupakan perintah untuk memonitoring sistem, kita dapat melihat penggunaan memory, cpu, swap. Berikut adalah contoh penggunaan :
 
 ```shell
@@ -32,6 +34,7 @@ Jika pada server kalian belum terinstall, maka dapat menjalankan perintah beriku
 ```shell
 sudo apt install htop -y
 ```
+
 ```shell
 htop
 ```
@@ -53,6 +56,7 @@ Keterangan :
 - **Command** adalah perintah apa yang sedang di jalankan.
 
 ### nmon
+
 Pada tampilan awal terdapat beberapa pilihan yang dapat kita gunakan, berikut hanyalah contoh penggunaannya :
 
 Untuk instalasi nmon dapat menggunakan perintah berikut :
@@ -66,14 +70,16 @@ sudo apt install nmon
 </center>
 
 Untuk menjalankan nmon kalian dapat menggunakan perintah dibawah ini
+
 ```shell
 nmon
 ```
+
 <center>
 <img alt="image1" src={useBaseUrl('img/docs/nmon2.png')} height="500px"/>
 </center>
 
-Keterangan : 
+Keterangan :
 Disini kita dapat memilih ingin memonitoring apa saja, Disini kita coba saja untuk menampilkan beberapa saja.
 
 - **c** adalah CPU
@@ -88,9 +94,11 @@ Berikut adalah tampilan dari nmon untuk menampilkan **cpu, memory, disk, dan net
 </center>
 
 ### lsof
-Lsof merupakan singkatan list open files, berfungsi untuk melihat seluruh file yang terbuka berdasarkan proses aktif yang berjalan di sistem. 
+
+Lsof merupakan singkatan list open files, berfungsi untuk melihat seluruh file yang terbuka berdasarkan proses aktif yang berjalan di sistem.
 
 Berikut adalah contoh penggunaan :
+
 ```shell
 lsof
 ```
@@ -122,9 +130,11 @@ lsof -i :80
 keterangan : untuk menampilkan proses yang menggunakan port 80
 
 ### ps
-Ps merupakan singkatan dari process status, untuk mengetahui daftar proses yang berjalan pada sistem. 
+
+Ps merupakan singkatan dari process status, untuk mengetahui daftar proses yang berjalan pada sistem.
 
 Berikut adalah contoh penggunaan :
+
 ```shell
 ps -f -u (your-user)
 ```

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 4. Virtualization  
+# 4. Virtualization
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -12,9 +12,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Virtual Machine** adalah sistem operasi komputer yang berjalan di atas sistem lain, dan memiliki akses ke sumber daya yang ada di bawahnya, seperti CPU, memory, storage dan sebagainya.
 
-## 4.2 Kenapa Harus Virtualization ?
+## 4.2 Kenapa Menggunakan Virtualization ?
 
 Kelebihan menggunakan virtualization :
+
 1. Kemudahan backup dan recovery server yang dijalankan di dalam sebuah virtual machine, karena akan melakukan backup secara keseluruhan termasuk konfigurasi sistem.
 2. Kemudahan deployment karena dapat di clone sebanyak mungkin dengan konfigurasi sistem yang sama.
 3. Dapat memindahkan virtual machine ke server lain jika terjadi kerusakan hardware.
@@ -28,10 +29,11 @@ Diibaratkan, infrastructure ini memiliki sumber daya yang besar, misal spesifika
 ## 4.3 Contoh Penggunaan Virtualization
 
 Berikut ini adalah beberapa contoh penggunaan virtualization:
+
 1. Provider Hosting
 2. Provider VPS
 
-## 4.4 Virtual Machine Platform 
+## 4.4 Virtual Machine Platform
 
 <center>
   <img alt="image1" src={useBaseUrl('img/docs/image-9.png')} height="180px"/>

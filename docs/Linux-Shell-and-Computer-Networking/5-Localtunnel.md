@@ -7,6 +7,7 @@ sidebar_position: 5
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 5.1 Apa itu Localtunnel?
+
 **Localtunnel** adalah sebuah tools yang memungkinkan kita untuk berbagi layanan website dari lokal komputer ke publik dengan url akses yang disediakan oleh localtunnel.
 
 **Ilustrasi bagaimana cara Localtunnel bekerja**
@@ -15,20 +16,22 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img alt="image1" src={useBaseUrl('img/docs/localtunnel.png')} height="300px"/>
 </center>
 
-## 5.2 Kenapa Localtunnel ?
+## 5.2 Mengapa Menggunakan Localtunnel ?
+
 - Kita dapat membuat aplikasi web dapat diakses secara publik.
 - Tidak perlu meletakkan web tersebut ke server online.
 - Tidak perlu membeli domain.
 
-## 5.3 Bagaimana Menggunakan Localtunnel?
+## 5.3 Bagaimana Penggunaan Localtunnel?
 
 Kita akan mencoba untuk menjalankan localtunnel agar server local kita dapat di akses secara publik. Berikut adalah step by step cara menggunakannya:
 
 - Pertama-tama yang kita lakukan adalah instalalsi `node.js` menggunakan `nvm` untuk melakukan instalasi kalian dapat mengikuti langkah-langkah dibawah ini.
-  
+
   ```shell
   sudo apt install curl
   ```
+
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/tun1.png')} height="400px"/>
   </center>
@@ -66,6 +69,7 @@ Kita akan mencoba untuk menjalankan localtunnel agar server local kita dapat di 
   ```shell
   npm install -g localtunnel
   ```
+
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/tun4.png')} height="400px"/>
   </center>
@@ -76,7 +80,7 @@ Kita akan mencoba untuk menjalankan localtunnel agar server local kita dapat di 
   sudo apt install nginx
   ```
 
-    Lalu nanti akan muncul notifikasi **Do you want to continue? [Y/n]** kalian ketik saja **Y**. Jika sudah maka instalasi akan berjalan.
+  Lalu nanti akan muncul notifikasi **Do you want to continue? [Y/n]** kalian ketik saja **Y**. Jika sudah maka instalasi akan berjalan.
 
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/s1.png')} height="400px"/>
@@ -105,7 +109,7 @@ Kita akan mencoba untuk menjalankan localtunnel agar server local kita dapat di 
 
 - Jika sudah copy url yang ada di terminal kalian.
 - Setelah itu coba kalian akses menggunakan Web.browser kalian.
-  
+
   <center>
   <img alt="image1" src={useBaseUrl('img/docs/tune3.png')} height="400px"/>
   </center>

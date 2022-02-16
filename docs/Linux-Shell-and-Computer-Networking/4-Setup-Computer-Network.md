@@ -10,11 +10,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Setup Computer Network merupakan cara seorang DevOps ataupun System Administrator untuk mengganti default IP pada sebuah server.
 
-## 4.2 Kenapa Harus Setup Computer Network?
+## 4.2 Mengapa Harus Melakukan Setup Computer Network?
 
 Pada dasarnya, IP pada sistem operasi server dapat berubah jika router atau internet yang digunakan berubah. Maka dari itu seorang DevOps juga perlu mempelajari bagaimana cara mengganti IP server dengan cara manual.
 
-## 4.3 Bagaimana Setup Computer Network?
+## 4.3 Bagaimana Setup Computer Network Dilakukan ?
 
 Jika kalian ingin melakukan perubahan untuk **IP** dari server yang sudah kalian buat kalian bisa gunakan perintah berikut
 
@@ -51,6 +51,7 @@ Setelah itu kita dapat melakukan pengecekan terhadap IP yang telah diubah terseb
 ```shell
 ssh alvin@192.168.1.6
 ```
+
 Pastikan dibagian user(alvin), dan IP(192.168.1.6) ubah dengan user dan IP server yang sudah kalian buat sebelumnya. Jika sudah nanti akan muncul **Are you sure you want to continue connecting** langsung ketik saja **yes**. Jika sudah masukkan Password dari Server yang sudah kalian buat sebelumnya.
 
 <center>
@@ -66,8 +67,9 @@ sudo apt update; sudo apt upgrade
 ```
 
 Selanjutnya kita akan coba untuk menginstall aplikasi **Nginx**.
-  
-Kalian bisa gunakan perintah di bawah ini.  
+
+Kalian bisa gunakan perintah di bawah ini.
+
 ```shell
 sudo apt install nginx
 ```
